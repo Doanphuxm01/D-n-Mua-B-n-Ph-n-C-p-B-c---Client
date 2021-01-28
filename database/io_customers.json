@@ -1,0 +1,320 @@
+[{
+  "_id": {
+    "$oid": "5f0c055fe2c02603100cdf66"
+  },
+  "account": "DaiLyMPG",
+  "name": "Minh Phúc Group",
+  "email": "khoait109@gmail.com",
+  "phone": "0886509919",
+  "can_cuoc_cong_dan": "030099001151",
+  "parent_id": "0",
+  "ma_gioi_thieu": "1234",
+  "created_at": {
+    "$date": "2020-07-13T06:55:27Z"
+  },
+  "updated_at": {
+    "$date": "2020-07-13T06:55:27Z"
+  },
+  "status": "active",
+  "password": "e5d02a908a7f7fc5de1eb1c7a25d38355ce40a28ed07c3aeeb41e1a24161b834",
+  "verified": {
+    "phone": "yes",
+    "email": "yes"
+  },
+  "access_token": {
+    "facebook": "",
+    "google": ""
+  }
+},{
+  "_id": {
+    "$oid": "5f0c06e95b7700002e006178"
+  },
+  "name": "Nguyễn Văn Khoa",
+  "account": "Khoa",
+  "fullname": "Nguyễn Văn Khoa",
+  "password": "df2151c3f42f4fa7d8b7170b396e3b074f550d184dd72d6ed0f1cd17b88e7b8a",
+  "phone": "0886509919",
+  "email": "khoait109@gmail.com",
+  "can_cuoc_cong_dan": "030099001154",
+  "parent_id": "1234",
+  "verified": {
+    "phone": "no",
+    "email": "no"
+  },
+  "status": "active",
+  "created_at": {
+    "$date": "2020-07-13T07:02:01Z"
+  },
+  "buympg": "3650000",
+  "actived_at": {
+    "$date": "2020-07-13T12:50:37Z"
+  },
+  "updated_at": {
+    "$date": "2020-07-13T12:50:37Z"
+  },
+  "ma_gioi_thieu": "id5f0c58a89459a"
+},{
+  "_id": {
+    "$oid": "5f0c097fe2c026038a01b318"
+  },
+  "name": "Nguyễn Đức Việt",
+  "account": "viethd",
+  "fullname": "Nguyễn Đức Việt",
+  "password": "df2151c3f42f4fa7d8b7170b396e3b074f550d184dd72d6ed0f1cd17b88e7b8a",
+  "phone": "01222332676",
+  "email": "viethd@gmail.com",
+  "can_cuoc_cong_dan": "144667732",
+  "parent_id": "1234",
+  "verified": {
+    "phone": "no",
+    "email": "no"
+  },
+  "status": "active",
+  "created_at": {
+    "$date": "2020-07-13T07:13:03Z"
+  },
+  "debt": "yes",
+  "buympg": "50000000",
+  "actived_at": {
+    "$date": "2020-07-13T09:35:23Z"
+  },
+  "updated_at": {
+    "$date": "2020-07-13T09:35:23Z"
+  }
+},{
+  "_id": {
+    "$oid": "5f0c09cfe2c0260670559700"
+  },
+  "name": "Nguyễn Văn Công",
+  "account": "Conghd",
+  "fullname": "Nguyễn Văn Công",
+  "password": "0e1bcc4ca74adfa444298f245411b90b35d4376656c0158794e357be4b478add",
+  "phone": "0963930286",
+  "email": "Conghd.139@gmail.com",
+  "can_cuoc_cong_dan": "18810310296",
+  "parent_id": "1234",
+  "verified": {
+    "phone": "no",
+    "email": "no"
+  },
+  "status": "active",
+  "created_at": {
+    "$date": "2020-07-13T07:14:23Z"
+  },
+  "debt": "yes",
+  "buympg": "50000000",
+  "actived_at": {
+    "$date": "2020-07-13T09:20:51Z"
+  },
+  "updated_at": {
+    "$date": "2020-07-13T09:20:51Z"
+  },
+  "ma_gioi_thieu": "id5f0c2784aaf4f"
+},{
+  "_id": {
+    "$oid": "5f0c0ad1e2c02608502e4218"
+  },
+  "name": "Nguyễn Minh Hường",
+  "account": "Nhi01",
+  "fullname": "Nguyễn Minh Hường",
+  "password": "df2151c3f42f4fa7d8b7170b396e3b074f550d184dd72d6ed0f1cd17b88e7b8a",
+  "phone": "099337725",
+  "email": "minhhuong@gmail.com",
+  "can_cuoc_cong_dan": "1475880075",
+  "parent_id": "1234",
+  "verified": {
+    "phone": "no",
+    "email": "no"
+  },
+  "status": "inactive",
+  "created_at": {
+    "$date": "2020-07-13T07:18:41Z"
+  },
+  "debt": "no",
+  "buympg": "30000000"
+},{
+  "_id": {
+    "$oid": "5f0c09575b7700002e00617d"
+  },
+  "name": "Nguyễn Bích Ngọc",
+  "account": "bichngoc",
+  "fullname": "Nguyễn Bích Ngọc",
+  "password": "df2151c3f42f4fa7d8b7170b396e3b074f550d184dd72d6ed0f1cd17b88e7b8a",
+  "phone": "0886509919",
+  "email": "khoait109@gmail.com",
+  "can_cuoc_cong_dan": "030099001152",
+  "parent_id": "1234",
+  "verified": {
+    "phone": "no",
+    "email": "no"
+  },
+  "status": "active",
+  "created_at": {
+    "$date": "2020-07-13T07:12:23Z"
+  },
+  "buympg": "300000000",
+  "actived_at": {
+    "$date": "2020-07-13T09:19:12Z"
+  },
+  "updated_at": {
+    "$date": "2020-07-13T09:19:12Z"
+  }
+},{
+  "_id": {
+    "$oid": "5f0c0d90e2c02603100cdf6a"
+  },
+  "name": "Nguyễn Thị Nhi",
+  "account": "nhi001",
+  "fullname": "Nguyễn Thị Nhi",
+  "password": "df2151c3f42f4fa7d8b7170b396e3b074f550d184dd72d6ed0f1cd17b88e7b8a",
+  "phone": "012223326754",
+  "email": "nhi001@gmail.com",
+  "can_cuoc_cong_dan": "1876343608",
+  "parent_id": "1234",
+  "verified": {
+    "email": "false"
+  },
+  "status": "active",
+  "created_at": {
+    "$date": "2020-07-13T07:30:24Z"
+  },
+  "buympg": "3000000000",
+  "actived_at": {
+    "$date": "2020-07-12T17:00:00Z"
+  },
+  "updated_at": {
+    "$date": "2020-07-13T08:39:20Z"
+  },
+  "ma_gioi_thieu": "a0000"
+},{
+  "_id": {
+    "$oid": "5f0c2950e2c0261bb85098c6"
+  },
+  "name": "Nguyễn Thị Nhi",
+  "account": "nhi002",
+  "fullname": "Nguyễn Thị Nhi",
+  "password": "df2151c3f42f4fa7d8b7170b396e3b074f550d184dd72d6ed0f1cd17b88e7b8a",
+  "phone": "012223326754",
+  "email": "nhi001@gmail.com",
+  "can_cuoc_cong_dan": "1876343675",
+  "parent_id": "1234",
+  "verified": {
+    "phone": "no",
+    "email": "no"
+  },
+  "status": "active",
+  "created_at": {
+    "$date": "2020-07-13T09:28:48Z"
+  },
+  "debt": "yes",
+  "buympg": "50000000",
+  "actived_at": {
+    "$date": "2020-07-13T09:19:49Z"
+  },
+  "updated_at": {
+    "$date": "2020-07-13T09:19:49Z"
+  },
+  "ma_gioi_thieu": "1111"
+},{
+  "_id": {
+    "$oid": "5f0c29a4e2c0261c023c1db8"
+  },
+  "name": "Nguyễn Tiến Thành",
+  "account": "thanhnguyen",
+  "fullname": "Nguyễn Tiến Thành",
+  "password": "df2151c3f42f4fa7d8b7170b396e3b074f550d184dd72d6ed0f1cd17b88e7b8a",
+  "phone": "08875466531",
+  "email": "thanhad2k@gmail.com",
+  "can_cuoc_cong_dan": "1285764517",
+  "parent_id": "a0000",
+  "verified": {
+    "phone": "no",
+    "email": "no"
+  },
+  "status": "active",
+  "created_at": {
+    "$date": "2020-07-13T09:30:12Z"
+  },
+  "debt": "yes",
+  "buympg": "836475374",
+  "actived_at": {
+    "$date": "2020-07-13T09:44:32Z"
+  },
+  "updated_at": {
+    "$date": "2020-07-13T09:44:32Z"
+  },
+  "ma_gioi_thieu": "id5f0c2d13c55f7"
+},{
+  "_id": {
+    "$oid": "5f0c29f6e2c0261c023c1dbc"
+  },
+  "name": "Lưu Kiều Trang",
+  "account": "kieutrang",
+  "fullname": "Lưu Kiều Trang",
+  "password": "df2151c3f42f4fa7d8b7170b396e3b074f550d184dd72d6ed0f1cd17b88e7b8a",
+  "phone": "0855032779",
+  "email": "kieutrang2k@gmail.com",
+  "can_cuoc_cong_dan": "176234178",
+  "parent_id": "1111",
+  "verified": {
+    "phone": "no",
+    "email": "no"
+  },
+  "status": "inactive",
+  "created_at": {
+    "$date": "2020-07-13T09:31:34Z"
+  },
+  "debt": "no",
+  "buympg": "8756421245"
+},{
+  "_id": {
+    "$oid": "5f0c30d0e2c0261bb5413af5"
+  },
+  "name": "Lưu Hải Phong",
+  "account": "phongtq",
+  "fullname": "Lưu Hải Phong",
+  "password": "df2151c3f42f4fa7d8b7170b396e3b074f550d184dd72d6ed0f1cd17b88e7b8a",
+  "phone": "086556231",
+  "email": "phongtq@gmail.com",
+  "can_cuoc_cong_dan": "1453478956",
+  "parent_id": "1111",
+  "verified": {
+    "phone": "no",
+    "email": "no"
+  },
+  "status": "active",
+  "created_at": {
+    "$date": "2020-07-13T10:00:48Z"
+  },
+  "debt": "yes",
+  "buympg": "7797557609",
+  "actived_at": {
+    "$date": "2020-07-13T10:15:47Z"
+  },
+  "updated_at": {
+    "$date": "2020-07-13T10:15:47Z"
+  },
+  "ma_gioi_thieu": "id5f0c345c63005"
+},{
+  "_id": {
+    "$oid": "5f0c359ce2c0264843042c36"
+  },
+  "name": "Đỗ Thị Mỹ Hạnh",
+  "account": "myhanh",
+  "fullname": "Đỗ Thị Mỹ Hạnh",
+  "password": "0e1bcc4ca74adfa444298f245411b90b35d4376656c0158794e357be4b478add",
+  "phone": "0765543175",
+  "email": "myhanh@gmail.com",
+  "can_cuoc_cong_dan": "14576675736",
+  "parent_id": "1234",
+  "verified": {
+    "phone": "no",
+    "email": "no"
+  },
+  "status": "inactive",
+  "created_at": {
+    "$date": "2020-07-13T10:21:16Z"
+  },
+  "debt": "yes",
+  "buympg": "10000000000"
+}]

@@ -1,0 +1,54 @@
+[
+  {
+    name: 'Sự kiện',
+    icon: require('../../../assets/cate/event/calendar2.png'),
+    bg1: '#FFC107',
+    bg2: '#ffd106',
+    cate_type: 'event',
+    _id: '',
+  }, {
+  name: 'Trải nghiệm',
+  icon: require('../../../assets/cate/art/creativity.png'),
+  bg1: '#00b0f0ff',
+  bg2: '#12cded',
+  cate_type: 'partner',
+  _id: 'trai-nghiem',
+},
+  {
+    name: 'Trong nhà',
+    icon: require('../../../assets/cate/in-home/address2.png'),
+    /* bg1: '#4CAF50',
+     bg2: '#7be280',*/
+    bg1: '#c00000ff',
+    bg2: '#ec0000',
+    cate_type: 'partner',
+    _id: 'trong-nha',
+  },
+  {
+    name: 'Ngoài trời',
+    icon: require('../../../assets/cate/funny/birdie2.png'),
+    /* bg1: '#7030a0ff',
+     bg2: '#883ac2',*/
+    bg1: '#4CAF50',
+    bg2: '#7be280',
+    cate_type: 'partner',
+    _id: 'ngoai-troi',
+
+  }, {
+  name: 'Tiếng anh',
+  icon: require('../../../assets/cate/learn/planet-earth.png'),
+  /* bg1: '#002060ff',
+   bg2: '#00339a',*/
+  bg1: '#7030a0ff',
+  bg2: '#883ac2',
+  cate_type: 'partner',
+  _id: 'tieng-anh',
+},{
+  name: 'Kỹ năng',
+  icon: require('../../../assets/cate/ky-nang/sketch2.png'),
+  bg1: '#002060ff',
+  bg2: '#00339a',
+  cate_type: 'partner',
+  _id: 'ky-nang',
+},
+];

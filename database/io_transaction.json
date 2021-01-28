@@ -1,0 +1,954 @@
+[{
+  "_id": {
+    "$oid": "5f0c1fdd492100003c003706"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T08:48:29Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_TIEUDUNG",
+  "object": "vitieudung",
+  "diem_da_nhan": 3000000000,
+  "tai_khoan_nguon": {
+    "id": "5f0c0d90e2c02603100cdf6a",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi001",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c0d90e2c02603100cdf6a",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi001",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c0d93e2c02603100cdf6d"
+},{
+  "_id": {
+    "$oid": "5f0c1fdd492100003c003708"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T08:48:29Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_CHIETKHAU",
+  "object": "vichietkhau",
+  "diem_da_nhan": 2400000000,
+  "tai_khoan_nguon": {
+    "id": "5f0c0d90e2c02603100cdf6a",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi001",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c0d90e2c02603100cdf6a",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi001",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c0d93e2c02603100cdf6d"
+},{
+  "_id": {
+    "$oid": "5f0c1fde492100003c00370d"
+  },
+  "diem_da_nhan": 150000000,
+  "tai_khoan_nguon": {
+    "id": "5f0c0d90e2c02603100cdf6a",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi001",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "email": "false"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c055fe2c02603100cdf66",
+    "name": "Minh Phúc Group",
+    "account": "DaiLyMPG",
+    "email": "khoait109@gmail.com",
+    "phone": "0886509919",
+    "verified": {
+      "phone": "yes",
+      "email": "yes"
+    }
+  },
+  "type_giaodich": "DIEM_HOAHONG",
+  "created_at": {
+    "$date": "2020-07-13T08:48:30Z"
+  },
+  "status": "active"
+},{
+  "_id": {
+    "$oid": "5f0c274a492100003c003713"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T09:20:10Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_TIEUDUNG",
+  "object": "vitieudung",
+  "diem_da_nhan": 37500000,
+  "tai_khoan_nguon": {
+    "id": "5f0c2950e2c0261bb85098c6",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi002",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c2950e2c0261bb85098c6",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi002",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c2954e2c0261bb85098c9"
+},{
+  "_id": {
+    "$oid": "5f0c274a492100003c003715"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T09:20:10Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_CHIETKHAU",
+  "object": "vichietkhau",
+  "diem_da_nhan": 30000000,
+  "tai_khoan_nguon": {
+    "id": "5f0c2950e2c0261bb85098c6",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi002",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c2950e2c0261bb85098c6",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi002",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c2954e2c0261bb85098c9"
+},{
+  "_id": {
+    "$oid": "5f0c274a492100003c003718"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T09:20:10Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_CONGNO",
+  "object": "vicongno",
+  "diem_da_nhan": 9375000,
+  "tai_khoan_nguon": {
+    "id": "5f0c2950e2c0261bb85098c6",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi002",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c2950e2c0261bb85098c6",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi002",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5f0c274b492100003c00371c"
+  },
+  "diem_da_nhan": 1875000,
+  "tai_khoan_nguon": {
+    "id": "5f0c2950e2c0261bb85098c6",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi002",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c055fe2c02603100cdf66",
+    "name": "Minh Phúc Group",
+    "account": "DaiLyMPG",
+    "email": "khoait109@gmail.com",
+    "phone": "0886509919",
+    "verified": {
+      "phone": "yes",
+      "email": "yes"
+    }
+  },
+  "type_giaodich": "DIEM_HOAHONG",
+  "created_at": {
+    "$date": "2020-07-13T09:20:11Z"
+  },
+  "status": "active"
+},{
+  "_id": {
+    "$oid": "5f0c2784492100003c003720"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T09:21:08Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_TIEUDUNG",
+  "object": "vitieudung",
+  "diem_da_nhan": 37500000,
+  "tai_khoan_nguon": {
+    "id": "5f0c09cfe2c0260670559700",
+    "name": "Nguyễn Văn Công",
+    "account": "Conghd",
+    "email": "Conghd.139@gmail.com",
+    "phone": "0963930286",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c09cfe2c0260670559700",
+    "name": "Nguyễn Văn Công",
+    "account": "Conghd",
+    "email": "Conghd.139@gmail.com",
+    "phone": "0963930286",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c09d2e2c0260670559703"
+},{
+  "_id": {
+    "$oid": "5f0c2785492100003c003722"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T09:21:09Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_CHIETKHAU",
+  "object": "vichietkhau",
+  "diem_da_nhan": 30000000,
+  "tai_khoan_nguon": {
+    "id": "5f0c09cfe2c0260670559700",
+    "name": "Nguyễn Văn Công",
+    "account": "Conghd",
+    "email": "Conghd.139@gmail.com",
+    "phone": "0963930286",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c09cfe2c0260670559700",
+    "name": "Nguyễn Văn Công",
+    "account": "Conghd",
+    "email": "Conghd.139@gmail.com",
+    "phone": "0963930286",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c09d2e2c0260670559703"
+},{
+  "_id": {
+    "$oid": "5f0c2785492100003c003725"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T09:21:09Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_CONGNO",
+  "object": "vicongno",
+  "diem_da_nhan": 9375000,
+  "tai_khoan_nguon": {
+    "id": "5f0c09cfe2c0260670559700",
+    "name": "Nguyễn Văn Công",
+    "account": "Conghd",
+    "email": "Conghd.139@gmail.com",
+    "phone": "0963930286",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c09cfe2c0260670559700",
+    "name": "Nguyễn Văn Công",
+    "account": "Conghd",
+    "email": "Conghd.139@gmail.com",
+    "phone": "0963930286",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5f0c2786492100003c003729"
+  },
+  "diem_da_nhan": 1875000,
+  "tai_khoan_nguon": {
+    "id": "5f0c09cfe2c0260670559700",
+    "name": "Nguyễn Văn Công",
+    "account": "Conghd",
+    "email": "Conghd.139@gmail.com",
+    "phone": "0963930286",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c055fe2c02603100cdf66",
+    "name": "Minh Phúc Group",
+    "account": "DaiLyMPG",
+    "email": "khoait109@gmail.com",
+    "phone": "0886509919",
+    "verified": {
+      "phone": "yes",
+      "email": "yes"
+    }
+  },
+  "type_giaodich": "DIEM_HOAHONG",
+  "created_at": {
+    "$date": "2020-07-13T09:21:09Z"
+  },
+  "status": "active"
+},{
+  "_id": {
+    "$oid": "5f0c2d13e2c0261bdc22144a"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T09:44:51Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_TIEUDUNG",
+  "object": "vitieudung",
+  "diem_da_nhan": 627356530.5,
+  "tai_khoan_nguon": {
+    "id": "5f0c29a4e2c0261c023c1db8",
+    "name": "Nguyễn Tiến Thành",
+    "account": "thanhnguyen",
+    "email": "thanhad2k@gmail.com",
+    "phone": "08875466531",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c29a4e2c0261c023c1db8",
+    "name": "Nguyễn Tiến Thành",
+    "account": "thanhnguyen",
+    "email": "thanhad2k@gmail.com",
+    "phone": "08875466531",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c29a7e2c0261c023c1dbb"
+},{
+  "_id": {
+    "$oid": "5f0c2d13e2c0261bdc22144c"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T09:44:51Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_CHIETKHAU",
+  "object": "vichietkhau",
+  "diem_da_nhan": 501885224.40000004,
+  "tai_khoan_nguon": {
+    "id": "5f0c29a4e2c0261c023c1db8",
+    "name": "Nguyễn Tiến Thành",
+    "account": "thanhnguyen",
+    "email": "thanhad2k@gmail.com",
+    "phone": "08875466531",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c29a4e2c0261c023c1db8",
+    "name": "Nguyễn Tiến Thành",
+    "account": "thanhnguyen",
+    "email": "thanhad2k@gmail.com",
+    "phone": "08875466531",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c29a7e2c0261c023c1dbb"
+},{
+  "_id": {
+    "$oid": "5f0c2d14e2c0261bdc22144f"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T09:44:52Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_CONGNO",
+  "object": "vicongno",
+  "diem_da_nhan": 156839132.625,
+  "tai_khoan_nguon": {
+    "id": "5f0c29a4e2c0261c023c1db8",
+    "name": "Nguyễn Tiến Thành",
+    "account": "thanhnguyen",
+    "email": "thanhad2k@gmail.com",
+    "phone": "08875466531",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c29a4e2c0261c023c1db8",
+    "name": "Nguyễn Tiến Thành",
+    "account": "thanhnguyen",
+    "email": "thanhad2k@gmail.com",
+    "phone": "08875466531",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5f0c2d14e2c0261bdc221454"
+  },
+  "diem_da_nhan": 31367826.525000002,
+  "tai_khoan_nguon": {
+    "id": "5f0c29a4e2c0261c023c1db8",
+    "name": "Nguyễn Tiến Thành",
+    "account": "thanhnguyen",
+    "email": "thanhad2k@gmail.com",
+    "phone": "08875466531",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c0d90e2c02603100cdf6a",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi001",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "email": "false"
+    }
+  },
+  "type_giaodich": "DIEM_HOAHONG",
+  "created_at": {
+    "$date": "2020-07-13T09:44:52Z"
+  },
+  "status": "active"
+},{
+  "_id": {
+    "$oid": "5f0c2d14e2c0261bdc221456"
+  },
+  "diem_da_nhan": 25094261.22,
+  "tai_khoan_nguon": {
+    "id": "5f0c29a4e2c0261c023c1db8",
+    "name": "Nguyễn Tiến Thành",
+    "account": "thanhnguyen",
+    "email": "thanhad2k@gmail.com",
+    "phone": "08875466531",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c055fe2c02603100cdf66",
+    "name": "Minh Phúc Group",
+    "account": "DaiLyMPG",
+    "email": "khoait109@gmail.com",
+    "phone": "0886509919",
+    "verified": {
+      "phone": "yes",
+      "email": "yes"
+    }
+  },
+  "type_giaodich": "DIEM_HOAHONG",
+  "created_at": {
+    "$date": "2020-07-13T09:44:52Z"
+  },
+  "status": "active"
+},{
+  "_id": {
+    "$oid": "5f0c345ce2c0261c0321fca4"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T10:15:56Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_TIEUDUNG",
+  "object": "vitieudung",
+  "diem_da_nhan": 5848168206.75,
+  "tai_khoan_nguon": {
+    "id": "5f0c30d0e2c0261bb5413af5",
+    "name": "Lưu Hải Phong",
+    "account": "phongtq",
+    "email": "phongtq@gmail.com",
+    "phone": "086556231",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c30d0e2c0261bb5413af5",
+    "name": "Lưu Hải Phong",
+    "account": "phongtq",
+    "email": "phongtq@gmail.com",
+    "phone": "086556231",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c30d3e2c0261bb5413af8"
+},{
+  "_id": {
+    "$oid": "5f0c345ce2c0261c0321fca6"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T10:15:56Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_CHIETKHAU",
+  "object": "vichietkhau",
+  "diem_da_nhan": 4678534565.400001,
+  "tai_khoan_nguon": {
+    "id": "5f0c30d0e2c0261bb5413af5",
+    "name": "Lưu Hải Phong",
+    "account": "phongtq",
+    "email": "phongtq@gmail.com",
+    "phone": "086556231",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c30d0e2c0261bb5413af5",
+    "name": "Lưu Hải Phong",
+    "account": "phongtq",
+    "email": "phongtq@gmail.com",
+    "phone": "086556231",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c30d3e2c0261bb5413af8"
+},{
+  "_id": {
+    "$oid": "5f0c345ce2c0261c0321fca9"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T10:15:56Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_CONGNO",
+  "object": "vicongno",
+  "diem_da_nhan": 1462042051.6875,
+  "tai_khoan_nguon": {
+    "id": "5f0c30d0e2c0261bb5413af5",
+    "name": "Lưu Hải Phong",
+    "account": "phongtq",
+    "email": "phongtq@gmail.com",
+    "phone": "086556231",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c30d0e2c0261bb5413af5",
+    "name": "Lưu Hải Phong",
+    "account": "phongtq",
+    "email": "phongtq@gmail.com",
+    "phone": "086556231",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5f0c345ce2c0261c0321fcae"
+  },
+  "diem_da_nhan": 292408410.33750004,
+  "tai_khoan_nguon": {
+    "id": "5f0c30d0e2c0261bb5413af5",
+    "name": "Lưu Hải Phong",
+    "account": "phongtq",
+    "email": "phongtq@gmail.com",
+    "phone": "086556231",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c2950e2c0261bb85098c6",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi002",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "type_giaodich": "DIEM_HOAHONG",
+  "created_at": {
+    "$date": "2020-07-13T10:15:56Z"
+  },
+  "status": "active"
+},{
+  "_id": {
+    "$oid": "5f0c345ce2c0261c0321fcb0"
+  },
+  "diem_da_nhan": 233926728.27,
+  "tai_khoan_nguon": {
+    "id": "5f0c30d0e2c0261bb5413af5",
+    "name": "Lưu Hải Phong",
+    "account": "phongtq",
+    "email": "phongtq@gmail.com",
+    "phone": "086556231",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c055fe2c02603100cdf66",
+    "name": "Minh Phúc Group",
+    "account": "DaiLyMPG",
+    "email": "khoait109@gmail.com",
+    "phone": "0886509919",
+    "verified": {
+      "phone": "yes",
+      "email": "yes"
+    }
+  },
+  "type_giaodich": "DIEM_HOAHONG",
+  "created_at": {
+    "$date": "2020-07-13T10:15:56Z"
+  },
+  "status": "active"
+},{
+  "_id": {
+    "$oid": "5f0c58a8fa4000003e004f3a"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T12:50:48Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_TIEUDUNG",
+  "object": "vitieudung",
+  "diem_da_nhan": 3650000,
+  "tai_khoan_nguon": {
+    "id": "5f0c06e95b7700002e006178",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com",
+    "phone": "0886509919",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c06e95b7700002e006178",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com",
+    "phone": "0886509919",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c06ed5b7700002e00617b"
+},{
+  "_id": {
+    "$oid": "5f0c58a9fa4000003e004f3c"
+  },
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-13T12:50:49Z"
+  },
+  "status": "active",
+  "type_giaodich": "DIEM_CHIETKHAU",
+  "object": "vichietkhau",
+  "diem_da_nhan": 2920000,
+  "tai_khoan_nguon": {
+    "id": "5f0c06e95b7700002e006178",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com",
+    "phone": "0886509919",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c06e95b7700002e006178",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com",
+    "phone": "0886509919",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c06ed5b7700002e00617b"
+},{
+  "_id": {
+    "$oid": "5f0d6144dd97fe2d58001e28"
+  },
+  "diem_da_nhan": 75000,
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-14T07:39:48Z"
+  },
+  "status": "active",
+  "type_giaodich": "CHIETKHAU_TICHLUY",
+  "object": "vitichluy",
+  "tai_khoan_nguon": {
+    "id": "5f0c09cfe2c0260670559700",
+    "name": "Nguyễn Văn Công",
+    "account": "Conghd",
+    "email": "Conghd.139@gmail.com",
+    "phone": "0963930286",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c09cfe2c0260670559700",
+    "name": "Nguyễn Văn Công",
+    "account": "Conghd",
+    "email": "Conghd.139@gmail.com",
+    "phone": "0963930286",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c09d2e2c0260670559703"
+},{
+  "_id": {
+    "$oid": "5f0d618bdd97fe2d58001e29"
+  },
+  "diem_da_nhan": 75000,
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-14T07:40:59Z"
+  },
+  "status": "active",
+  "type_giaodich": "CHIETKHAU_TICHLUY",
+  "object": "vitichluy",
+  "tai_khoan_nguon": {
+    "id": "5f0c09cfe2c0260670559700",
+    "name": "Nguyễn Văn Công",
+    "account": "Conghd",
+    "email": "Conghd.139@gmail.com",
+    "phone": "0963930286",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c09cfe2c0260670559700",
+    "name": "Nguyễn Văn Công",
+    "account": "Conghd",
+    "email": "Conghd.139@gmail.com",
+    "phone": "0963930286",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c09d2e2c0260670559703"
+},{
+  "_id": {
+    "$oid": "5f0d6192dd97fe2d58001e2b"
+  },
+  "diem_da_nhan": 75000,
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-14T07:41:06Z"
+  },
+  "status": "active",
+  "type_giaodich": "CHIETKHAU_TICHLUY",
+  "object": "vitichluy",
+  "tai_khoan_nguon": {
+    "id": "5f0c2950e2c0261bb85098c6",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi002",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c2950e2c0261bb85098c6",
+    "name": "Nguyễn Thị Nhi",
+    "account": "nhi002",
+    "email": "nhi001@gmail.com",
+    "phone": "012223326754",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c2954e2c0261bb85098c9"
+},{
+  "_id": {
+    "$oid": "5f0d6199dd97fe2d58001e2d"
+  },
+  "diem_da_nhan": 1254713.061,
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-14T07:41:13Z"
+  },
+  "status": "active",
+  "type_giaodich": "CHIETKHAU_TICHLUY",
+  "object": "vitichluy",
+  "tai_khoan_nguon": {
+    "id": "5f0c29a4e2c0261c023c1db8",
+    "name": "Nguyễn Tiến Thành",
+    "account": "thanhnguyen",
+    "email": "thanhad2k@gmail.com",
+    "phone": "08875466531",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c29a4e2c0261c023c1db8",
+    "name": "Nguyễn Tiến Thành",
+    "account": "thanhnguyen",
+    "email": "thanhad2k@gmail.com",
+    "phone": "08875466531",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c29a7e2c0261c023c1dbb"
+},{
+  "_id": {
+    "$oid": "5f0d619fdd97fe2d58001e2f"
+  },
+  "diem_da_nhan": 11696336.4135,
+  "created_by": [],
+  "created_at": {
+    "$date": "2020-07-14T07:41:19Z"
+  },
+  "status": "active",
+  "type_giaodich": "CHIETKHAU_TICHLUY",
+  "object": "vitichluy",
+  "tai_khoan_nguon": {
+    "id": "5f0c30d0e2c0261bb5413af5",
+    "name": "Lưu Hải Phong",
+    "account": "phongtq",
+    "email": "phongtq@gmail.com",
+    "phone": "086556231",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "tai_khoan_nhan": {
+    "id": "5f0c30d0e2c0261bb5413af5",
+    "name": "Lưu Hải Phong",
+    "account": "phongtq",
+    "email": "phongtq@gmail.com",
+    "phone": "086556231",
+    "verified": {
+      "phone": "no",
+      "email": "no"
+    }
+  },
+  "order_id": "5f0c30d3e2c0261bb5413af8"
+}]

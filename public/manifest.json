@@ -1,0 +1,32 @@
+{
+  "short_name": "Học trực tuyến",
+  "name": "Học trực tuyến",
+  "description": "Học trực tuyến, thông tin tuyển sinh",
+  "icons": [
+    {
+      "src": "launcher-icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "launcher-icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "launcher-icon-4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "launcher-icon-6x.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#d1dbe4",
+  "theme_color": "#37474f",
+  "display": "standalone",
+  "orientation": "portrait"
+}

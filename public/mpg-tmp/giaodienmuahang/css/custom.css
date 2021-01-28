@@ -1,0 +1,290 @@
+
+.add-to-cart-success {
+    cursor: default;
+    display: none;
+    position: absolute;
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 15px #b3b3b3;
+    box-shadow: 1px 1px 15px #b3b3b3;
+    right: 0;
+    padding: 15px 20px;
+    z-index: 9999;
+    top: calc(100% + 13px);
+    border-radius: 6px;
+}
+
+.add-to-cart-success:after {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: -4px;
+    right: 15px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: #fff;
+    -webkit-box-shadow: -1px -1px 0 #dfdfdf;
+    box-shadow: -1px -1px 0 #dfdfdf;
+    z-index: -1;
+}
+
+.add-to-cart-success p {
+    color: #333;
+    font-size: 13px;
+    margin-right: 38px;
+}
+
+.add-to-cart-success i.fxboticon.fa.fa-times {
+    position: absolute;
+    font-size: 18px;
+    top: 7px;
+    right: 12px;
+}
+
+.add-to-cart-success i.fa.fa-check-circle-o {
+    position: absolute;
+    left: 20px;
+    font-size: 17px;
+    color: #5ab55e;
+}
+
+.add-to-cart-success .btn {
+    background: #ff3945;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    width: 252px;
+}
+
+header .gio-hang {
+    background-image: url("../images/icon_list.png");
+    position: relative;
+    width: 44px;
+    height: 33px;
+    background-position: -152px -16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .counter-cart {
+    position: absolute;
+    color: #fff;
+    font-size: 10px;
+    background-color: #e83859;
+    line-height: 15px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 13px;
+}
+
+header .top-link-item {
+    display: inline-block;
+    font-size: 12px;
+    color: #ffffff;
+    padding-top: 27px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-left: 50px;
+}
+
+header .top-link-item:first-child {
+    margin-left: 0;
+}
+
+.page-order .table-list-order .price2 .sale {
+    background: 0 0;
+    color: #242424;
+    font-weight: 500;
+    font-size: 13px;
+    position: relative;
+    display: inline-block;
+    margin-left: 17px;
+    padding: 0;
+}
+
+.page-order .table-list-order .price2 .sale:before {
+    content: "";
+    width: 1px;
+    height: 10px;
+    background: #787878;
+    position: absolute;
+    left: -9px;
+    top: 5px;
+}
+.XlJje .border-top {
+    border-top: 1px solid rgb(236, 236, 236);
+}
+/* .khSZLo {
+    width: 418px;
+} */
+.khSZLo .images {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.khSZLo .images .plus {
+    color: rgb(144, 144, 145);
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0px 10px;
+}
+.khSZLo .images .image {
+    height: 90px;
+    flex: 0 0 90px;
+    padding: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    border-image: initial;
+    border-radius: 4px;
+}
+.khSZLo .images .image img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.khSZLo .frequently-products {
+    position: relative;
+    margin-bottom: 10px;
+}
+.khSZLo .frequently-products .frequently-product-item {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.khSZLo .frequently-products .frequently-product-item button {
+    cursor: pointer;
+    background-color: transparent;
+    margin: 0px 4px 0px 0px;
+    padding: 0px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+}
+.khSZLo .frequently-products .frequently-product-item .frequently-product-name {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 10px;
+    color: rgb(74, 74, 74);
+    font-size: 13px;
+    line-height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.khSZLo .frequently-products .frequently-product-item .frequently-product-name span {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.khSZLo .frequently-products .frequently-product-item .frequently-product-price {
+    color: rgb(74, 74, 74);
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px;
+}
+.khSZLo .frequently-add-to-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.khSZLo .frequently-add-to-cart .frequently-sum-price {
+    color: rgb(74, 74, 74);
+    font-size: 14px;
+    margin: 0px 0px 10px;
+}
+.khSZLo .frequently-add-to-cart .frequently-sum-price span {
+    color: rgb(255, 49, 61);
+    font-weight: 500;
+}
+.khSZLo .frequently-add-to-cart .frequently-button {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    background-color: rgb(255, 49, 61);
+    padding: 6px 12px;
+    border-radius: 4px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+}
+.XlJje .group-title {
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 0px 12px;
+}
+h2.group-title {
+    padding-top: 8px;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 0px 12px;
+}
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    background: rebeccapurple;
+    color: #fff;
+}
+
+.radio-custom + .radio-custom-label:before {
+    border-radius: 50%;
+}
+
+.radio-custom:checked + .radio-custom-label:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    color: #bbb;
+}
+
+.checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
+  outline: 1px solid #ddd; /* focus style */
+}
+.khSZLo .images .image.disable {
+    opacity: 0.5;
+}
+/* .checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: absolute;   
+} */
+/* zoom image product sale chú tuyết đẹp trai */
+
+img.logoButton{
+    width:71%;
+}
+

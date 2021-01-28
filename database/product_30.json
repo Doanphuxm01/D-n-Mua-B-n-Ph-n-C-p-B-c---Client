@@ -1,0 +1,1696 @@
+[{
+  "_id": {
+    "$oid": "5f2123c718282909657c7b15"
+  },
+  "name": "Dầu gội xả dược thiên nhiên Ela",
+  "sku": "01",
+  "alias": "dau-goi-xa-duoc-thien-nhien-ela",
+  "content": "<p>Dịch chiết bồ kết, dịch chiết xả, dịch chiết hương nhu, dịch chiết lá mây, dịch chiết vỏ bưởi, dịch triết mần trầu, dịch chiết chanh, Quả bồ hòn, Hà thủ ô, Hoa nhài, Ngái thá, Hydroxylethyl Cellulose, Cocoamidopropyl Betain, Dimethicone, HMDM Hydatoin, cùng các vị thảo mộc gia truyền khác…</p>",
+  "regularPrice": "160000",
+  "finalPrice": "160000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "tags": [
+    {
+      "name": "Chăm Sóc Sức Khỏe",
+      "alias": "cham-soc-suc-khoe",
+      "type": "tag",
+      "object": "product"
+    }
+  ],
+  "avatar_url": "upload/2020/0729/dau-xa-thao-duoc-thien-nhien-ela.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T07:22:47Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-29T07:37:04Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21288518282909657c7b18"
+  },
+  "name": "Dầu gội thảo dược thiên nhiên Ela",
+  "sku": "02",
+  "alias": "dau-goi-thao-duoc-thien-nhien-ela",
+  "content": "",
+  "regularPrice": "160000",
+  "finalPrice": "160000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T07:43:01Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "avatar_url": "upload/2020/0729/dau-xa-thao-duoc-thien-nhien-ela.jpg",
+  "updated_at": {
+    "$date": "2020-07-29T07:43:17Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2129270028ec653d5bfd24"
+  },
+  "name": "Dầu gội xả dược thiên nhiên Adely",
+  "sku": "03",
+  "alias": "dau-goi-xa-duoc-thien-nhien-adely",
+  "content": "",
+  "regularPrice": "190000",
+  "finalPrice": "190000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "avatar_url": "upload/2020/0729/dau-goi-thao-duoc-thien-nhien-adely.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/dau-goi-thao-duoc-thien-nhien-adely.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T07:45:43Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T10:57:40Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2129e126e42a0fcf3a4939"
+  },
+  "name": "Gell giặt Xanh Fugo 4.7L",
+  "sku": "04",
+  "alias": "gell-giat-xanh-fugo-47l",
+  "content": "",
+  "regularPrice": "260000",
+  "finalPrice": "260000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/gel-giat-xanh-fugo-4-7kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T07:48:49Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-29T08:00:10Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f212a423747f0079d136155"
+  },
+  "name": "Gell giặt Xanh Fugo 1.8L",
+  "sku": "05",
+  "alias": "gell-giat-xanh-fugo-18l",
+  "content": "",
+  "regularPrice": "110000",
+  "finalPrice": "110000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/gel-giat-xanh-fugo-1-8kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T07:50:26Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-29T07:59:59Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f212a7918282909657c7b1b"
+  },
+  "name": "Gell giặt đỏ Fugo 1.8",
+  "sku": "06",
+  "alias": "gell-giat-do-fugo-18",
+  "content": "",
+  "regularPrice": "110000",
+  "finalPrice": "110000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/gel-giat-do-fugo-4-7kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T07:51:21Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-29T07:59:50Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f212c5a26e42a0fcf3a493c"
+  },
+  "name": "Gell giặt đỏ Fugo 4.7L",
+  "sku": "07",
+  "alias": "gell-giat-do-fugo-4-7l",
+  "content": "<p><br data-mce-bogus=\"1\"></p>",
+  "regularPrice": "260000",
+  "finalPrice": "260000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/gel-giat-do-fugo-4-7kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T07:59:22Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f212cc726e42a0fcf3a493f"
+  },
+  "name": "Sữa Tắm Cao Cấp Hương Nước Hoa",
+  "sku": "07",
+  "alias": "sua-tam-cao-cap-huong-nuoc-hoa",
+  "content": "",
+  "regularPrice": "320000",
+  "finalPrice": "320000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "avatar_url": "upload/2020/0729/sua-tam-huong-nuoc-hoa.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:01:11Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-29T08:01:18Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f212d3208830710d500bc52"
+  },
+  "name": "Tẩy bồn cầu hương Quế 1kg",
+  "sku": "08",
+  "alias": "tay-bon-cau-huong-que-1kg",
+  "content": "",
+  "regularPrice": "40000",
+  "finalPrice": "40000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/gel-tay-bon-cau-que.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:02:58Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f212da339fad471065395af"
+  },
+  "name": "Lau sàn hoa ly 1kg",
+  "sku": "",
+  "alias": "lau-san-hoa-ly-1kg",
+  "content": "",
+  "regularPrice": "35000",
+  "finalPrice": "35000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/lau-san-hoa-ly-1kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:04:51Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f212ddd08830710d500bc54"
+  },
+  "name": "Sữa tắm thảo dược Supper Men",
+  "sku": "09",
+  "alias": "sua-tam-thao-duoc-supper-men",
+  "content": "",
+  "regularPrice": "220000",
+  "finalPrice": "220000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "avatar_url": "upload/2020/0729/supper-men.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:05:49Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-29T08:06:27Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f212e6ffab7b64d6f605aa5"
+  },
+  "name": "Lau sàn hoa ly 3.8kg",
+  "sku": "",
+  "alias": "lau-san-hoa-ly-3-8kg",
+  "content": "",
+  "regularPrice": "130000",
+  "finalPrice": "130000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/lau-san-hoa-ly-3-8kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:08:15Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f212eaac9f38f3bb169485c"
+  },
+  "name": "Lau sàn hương Quế 1Kg",
+  "sku": "",
+  "alias": "lau-san-huong-que-1kg",
+  "content": "",
+  "regularPrice": "35000",
+  "finalPrice": "35000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/lau-san-huong-que-1kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:09:14Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f212f042b445e0bdc090f37"
+  },
+  "name": "Lau Sàn Hương Quế 3.8kg",
+  "sku": "",
+  "alias": "lau-san-huong-que-3-8kg",
+  "content": "",
+  "regularPrice": "130000",
+  "finalPrice": "130000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/lau-san-huong-que-3-8kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:10:44Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f212f4418282909657c7b1e"
+  },
+  "name": "Nước rửa chén hương dừa 3.8Kg",
+  "sku": "",
+  "alias": "nuoc-rua-chen-huong-dua-3-8kg",
+  "content": "",
+  "regularPrice": "130000",
+  "finalPrice": "130000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/rua-chen-huong-dua-3-8kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:11:48Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f212fb03747f0079d136158"
+  },
+  "name": "Sữa giặt Fugo 2 in 1 4.7Kg",
+  "sku": "",
+  "alias": "sua-giat-fugo-2-in-1-4-7kg",
+  "content": "",
+  "regularPrice": "280000",
+  "finalPrice": "280000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/sua-giat-fugo-2-in-1-1-8kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:13:36Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21300918282909657c7b20"
+  },
+  "name": "Nước lau kính hương nhài 500ml",
+  "sku": "",
+  "alias": "nuoc-lau-kinh-huong-nhai-500ml",
+  "content": "",
+  "regularPrice": "40000",
+  "finalPrice": "40000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/lau-kinh.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:15:05Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2132dd2b445e0bdc090f39"
+  },
+  "name": "Kem đánh răng thảo dược Mint 150ml",
+  "sku": "",
+  "alias": "kem-danh-rang-thao-duoc-mint-150ml",
+  "content": "",
+  "regularPrice": "55000",
+  "finalPrice": "55000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/kem-danh-rang-thao-duoc-mint.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:27:09Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21331326e42a0fcf3a4943"
+  },
+  "name": "Dầu đậu nành không biến đổi gen Amypa",
+  "sku": "",
+  "alias": "dau-dau-nanh-khong-bien-doi-gen-amypa",
+  "content": "",
+  "regularPrice": "80000",
+  "finalPrice": "80000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/dau-dau-nanh-ko-bien-doi-gen.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:28:03Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21333b2b445e0bdc090f3b"
+  },
+  "name": "Sữa giặt tím Fugo 4.7Kg",
+  "sku": "",
+  "alias": "sua-giat-tim-fugo-4-7kg",
+  "content": "",
+  "regularPrice": "260000",
+  "finalPrice": "260000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/sua-giat-tim-fugo-4-7kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:28:43Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21333cfab7b64d6f605aa8"
+  },
+  "name": "Sữa giặt tím Fugo 4.7Kg",
+  "sku": "",
+  "alias": "sua-giat-tim-fugo-4-7kg",
+  "content": "",
+  "regularPrice": "260000",
+  "finalPrice": "260000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/sua-giat-tim-fugo-4-7kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:28:44Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21337b26e42a0fcf3a4945"
+  },
+  "name": "Nước rửa chén hương dừa 1.8Kg",
+  "sku": "",
+  "alias": "nuoc-rua-chen-huong-dua-1-8kg",
+  "content": "",
+  "regularPrice": "66000",
+  "finalPrice": "66000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/rua-chen-huong-dua-1-8kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:29:47Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2133de2b445e0bdc090f3d"
+  },
+  "name": "Xả vải khô Fugo",
+  "sku": "",
+  "alias": "xa-vai-kho-fugo",
+  "content": "",
+  "regularPrice": "65000",
+  "finalPrice": "65000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/xa-vairt-kho-zfugo.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:31:26Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21340639fad471065395b3"
+  },
+  "name": "Nước mắm cốt đặc biệt Minh Phúc",
+  "sku": "",
+  "alias": "nuoc-mam-cot-dac-biet-minh-phuc",
+  "content": "",
+  "regularPrice": "280000",
+  "finalPrice": "280000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/nuoc-man-cao-cap.png",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:32:06Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2134a008830710d500bc5a"
+  },
+  "name": "Rửa chén Fugo Hương Quế 1.8Kg",
+  "sku": "",
+  "alias": "rua-chen-fugo-huong-que-1-8kg",
+  "content": "",
+  "regularPrice": "66000",
+  "finalPrice": "66000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/que-1-8.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:34:40Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21352026e42a0fcf3a4947"
+  },
+  "name": "Nước rửa tay Minh Phúc Organic",
+  "sku": "",
+  "alias": "nuoc-rua-tay-minh-phuc-organic",
+  "content": "",
+  "regularPrice": "80000",
+  "finalPrice": "80000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/nuocruatay-minh-phuc.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:36:48Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f213578fab7b64d6f605aaa"
+  },
+  "name": "Kem Xịt Tẩy đa năng Fugo",
+  "sku": "",
+  "alias": "kem-xit-tay-da-nang-fugo",
+  "content": "",
+  "regularPrice": "43000",
+  "finalPrice": "43000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/xit-da-nang.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:38:16Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2135cc18282909657c7b22"
+  },
+  "name": "Sữa tắm gội thảo dược Baby Care",
+  "sku": "",
+  "alias": "sua-tam-goi-thao-duoc-baby-care",
+  "content": "",
+  "regularPrice": "90000",
+  "finalPrice": "90000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "avatar_url": "upload/2020/0729/sua-tam-goi-thao-duoc-tre-em-baby-care.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:39:40Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2136102b445e0bdc090f40"
+  },
+  "name": "Sữa tắm thảo dược hoa hồng Rose",
+  "sku": "",
+  "alias": "sua-tam-thao-duoc-hoa-hong-rose",
+  "content": "",
+  "regularPrice": "180000",
+  "finalPrice": "180000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "avatar_url": "upload/2020/0729/sua-tam-thao-duoc-hoa-hong-rose.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:40:48Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21364d39fad471065395b5"
+  },
+  "name": "Viên đặt phụ khoa thảo dược Minh Nữ Vương",
+  "sku": "",
+  "alias": "vien-dat-phu-khoa-thao-duoc-minh-nu-vuong",
+  "content": "",
+  "regularPrice": "680000",
+  "finalPrice": "680000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/san-pham-minh-nu-vuong.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:41:49Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-29T09:30:55Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2136800028ec653d5bfd2b"
+  },
+  "name": "Sữa giặt Fugo 2in1 1,8kg",
+  "sku": "",
+  "alias": "sua-giat-fugo-2in1-1-8kg",
+  "content": "",
+  "regularPrice": "120000",
+  "finalPrice": "120000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/sua-giat-fugo-2-in-1-1-8kg.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:42:40Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2136ce481db03aa9194185"
+  },
+  "name": "Rửa chén Fugo Hương Quế loại 800g",
+  "sku": "",
+  "alias": "rua-chen-fugo-huong-que-loai-800g",
+  "content": "",
+  "regularPrice": "35000",
+  "finalPrice": "35000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/rua-chen-que-800.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:43:58Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2136f426e42a0fcf3a494a"
+  },
+  "name": "Rửa chén Fugo Hương Dừa loại 800g",
+  "sku": "",
+  "alias": "rua-chen-fugo-huong-dua-loai-800g",
+  "content": "",
+  "regularPrice": "35000",
+  "finalPrice": "35000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/rua-chen-huong-dua-800g.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:44:36Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21374726e42a0fcf3a494c"
+  },
+  "name": "Nước hoa cao cấp Mp Luxyry",
+  "sku": "",
+  "alias": "nuoc-hoa-cao-cap-mp-luxyry",
+  "content": "",
+  "regularPrice": "1480000",
+  "finalPrice": "1480000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "avatar_url": "upload/2020/0729/nuoc-hoa.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T08:45:59Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2137c1fab7b64d6f605aac"
+  },
+  "name": "Sữa milk powder grow ( 900g ) - dành cho trẻ từ 1 - 10 tuổi. kích thích ăn ngon",
+  "sku": "",
+  "alias": "sua-milk-powder-grow-900g-danh-cho-tre-tu-1-10-tuoi-kich-thich-an-ngon",
+  "content": "",
+  "regularPrice": "890000",
+  "finalPrice": "890000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/suakichthichanngon.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/suakichthichanngon.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T08:48:01Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:50:44Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2138190028ec653d5bfd2d"
+  },
+  "name": "Sữa milk powder grow ( 900g ) - dành cho trẻ từ 0 -12 tháng tuổi",
+  "sku": "",
+  "alias": "sua-milk-powder-grow-900g-danh-cho-tre-tu-0-12-thang-tuoi",
+  "content": "",
+  "regularPrice": "890000",
+  "finalPrice": "890000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/suadanhchotretu012thang.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/suadanhchotretu012thang.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T08:49:29Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:38:10Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21383f3747f0079d13615b"
+  },
+  "name": "Sữa milk powder grow ( 900g ) - chống loãng xương",
+  "sku": "",
+  "alias": "sua-milk-powder-grow-900g-chong-loang-xuong",
+  "content": "",
+  "regularPrice": "890000",
+  "finalPrice": "890000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/suachongloangsuong.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/suachongloangsuong.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T08:50:07Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:37:49Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21386d26e42a0fcf3a494f"
+  },
+  "name": "Sữa milk powder grow ( 900g ) - dành cho phụ nữ có thai",
+  "sku": "",
+  "alias": "sua-milk-powder-grow-900g-danh-cho-phu-nu-co-thai",
+  "content": "",
+  "regularPrice": "890000",
+  "finalPrice": "890000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/suadanhchophunucothai.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/suadanhchophunucothai.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T08:50:53Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:37:22Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2138bdfab7b64d6f605aaf"
+  },
+  "name": "Sữa milk powder grow ( 900g ) - dành cho người già",
+  "sku": "",
+  "alias": "sua-milk-powder-grow-900g-danh-cho-nguoi-gia",
+  "content": "",
+  "regularPrice": "890000",
+  "finalPrice": "890000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/suanguoida.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/suanguoida.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T08:52:13Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:36:46Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2138f1c9f38f3bb1694862"
+  },
+  "name": "Sữa milk powder grow ( 900g ) - dành cho trẻ từ 1 - 10 tuổi.",
+  "sku": "",
+  "alias": "sua-milk-powder-grow-900g-danh-cho-tre-tu-1-10-tuoi",
+  "content": "",
+  "regularPrice": "890000",
+  "finalPrice": "890000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/sua.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/sua.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T08:53:05Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:35:53Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21392a08830710d500bc5e"
+  },
+  "name": "Sữa milk powder grow ( 400g )",
+  "sku": "",
+  "alias": "sua-milk-powder-grow-400g",
+  "content": "",
+  "regularPrice": "580000",
+  "finalPrice": "580000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/ce5f9067314fcc11955e.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/ce5f9067314fcc11955e.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T08:54:02Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:35:10Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f21398a481db03aa9194187"
+  },
+  "name": "Xịt Hôi Nách Minh Phúc",
+  "sku": "",
+  "alias": "xit-hoi-nach-minh-phuc",
+  "content": "",
+  "regularPrice": "68000",
+  "finalPrice": "68000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/xithoinach.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/xithoinach.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T08:55:38Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:32:24Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2139ce26e42a0fcf3a4951"
+  },
+  "name": "Nước rửa tay thảo dược Amy",
+  "sku": "",
+  "alias": "nuoc-rua-tay-thao-duoc-amy",
+  "content": "",
+  "regularPrice": "55000",
+  "finalPrice": "55000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "avatar_url": "upload/2020/0729/nuocruatay-amy.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/nuocruatay-amy.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T08:56:46Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:32:06Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2139fdfab7b64d6f605ab1"
+  },
+  "name": "Nước xúc miệng thảo dược Mint 350 ml",
+  "sku": "",
+  "alias": "nuoc-xuc-mieng-thao-duoc-mint-350-ml",
+  "content": "",
+  "regularPrice": "36000",
+  "finalPrice": "36000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "avatar_url": "upload/2020/0729/nuoc-xuc-mieng.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/nuoc-xuc-mieng.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T08:57:33Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:31:43Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f213a2dc9f38f3bb1694864"
+  },
+  "name": "Dung dịch vệ sinh phụ nữ thảo dược Suna 100ml",
+  "sku": "",
+  "alias": "dung-dich-ve-sinh-phu-nu-thao-duoc-suna-100ml",
+  "content": "",
+  "regularPrice": "65000",
+  "finalPrice": "65000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "avatar_url": "upload/2020/0729/ddvs.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0729/ddvs.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T08:58:21Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-29T09:42:54Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f213a6108830710d500bc60"
+  },
+  "name": "Nước mắm cốt Minh Phúc (Chai)",
+  "sku": "",
+  "alias": "nuoc-mam-cot-minh-phuc-chai",
+  "content": "",
+  "regularPrice": "36000",
+  "finalPrice": "36000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "avatar_url": "upload/2020/0729/nuoc-mam-chat-minh-phuc.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/nuoc-mam-chat-minh-phuc.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T08:59:13Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:31:06Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f213a9339fad471065395b9"
+  },
+  "name": "Kem đánh răng thảo dược In Care 150g",
+  "sku": "",
+  "alias": "kem-danh-rang-thao-duoc-in-care-150g",
+  "content": "",
+  "regularPrice": "70000",
+  "finalPrice": "70000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "avatar_url": "upload/2020/0729/kem-danh-rang-thao-duoc-in-care.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/kem-danh-rang-thao-duoc-in-care.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T09:00:03Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:30:46Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f213acd2b445e0bdc090f45"
+  },
+  "name": "Nước xả hồng đậm đặc Fugo 1.8L",
+  "sku": "",
+  "alias": "nuoc-xa-hong-dam-dac-fugo-18l",
+  "content": "",
+  "regularPrice": "110000",
+  "finalPrice": "110000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/xa-hong-fugo.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/gel-giat-do-fugo-1-8kg.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T09:01:01Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:30:28Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f213af739fad471065395bb"
+  },
+  "name": "Sữa giặt Fugo 2 in 1 1.8Kg",
+  "sku": "",
+  "alias": "sua-giat-fugo-2-in-1-18kg",
+  "content": "",
+  "regularPrice": "120000",
+  "finalPrice": "120000",
+  "amount": "100",
+  "categories": {},
+  "status": "active",
+  "avatar_url": "upload/2020/0729/sua-giat-fugo-2-in-1-1-8kg.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/sua-giat-fugo-2-in-1-1-8kg.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T09:01:43Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:30:10Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2141870028ec653d5bfd31"
+  },
+  "name": "Bột Nách Minh Phúc",
+  "sku": "",
+  "alias": "bot-nach-minh-phuc",
+  "content": "",
+  "regularPrice": "30000",
+  "finalPrice": "30000",
+  "amount": "0",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "avatar_url": "upload/2020/0729/nach.jpg",
+  "images": [
+    {
+      "name": "",
+      "path": "upload/2020/0730/nach.jpg"
+    }
+  ],
+  "created_at": {
+    "$date": "2020-07-29T09:29:43Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T11:29:34Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "5f2145072b445e0bdc090f49"
+  },
+  "name": "Combo MP8",
+  "sku": "",
+  "alias": "combo-mp8",
+  "content": "",
+  "regularPrice": "4568000",
+  "finalPrice": "4568000",
+  "amount": "100",
+  "categories": {
+    "5f2124f1fab7b64d6f605aa1": {
+      "id": {
+        "$oid": "5f2124f1fab7b64d6f605aa1"
+      },
+      "name": "MP Luxurry",
+      "alias": "cham-soc-sac-dep"
+    }
+  },
+  "status": "active",
+  "tags": [
+    {
+      "name": "bigsale",
+      "alias": "bigsale",
+      "type": "tag",
+      "object": "product",
+      "status": "active",
+      "created_at": {
+        "$date": "2020-07-30T13:58:34Z"
+      },
+      "created_by": {
+        "id": "5f1ffa74481db03aa9194157",
+        "name": "Nguyễn Văn Khoa",
+        "account": "Khoa",
+        "email": "khoait109@gmail.com"
+      }
+    },
+    {
+      "name": "BIG SALE",
+      "alias": "big-sale",
+      "type": "tag",
+      "object": "product"
+    }
+  ],
+  "avatar_url": "upload/2020/0729/comboo1.jpg",
+  "images": [],
+  "created_at": {
+    "$date": "2020-07-29T09:44:39Z"
+  },
+  "created_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  },
+  "updated_at": {
+    "$date": "2020-07-30T13:58:34Z"
+  },
+  "updated_by": {
+    "id": "5f1ffa74481db03aa9194157",
+    "name": "Nguyễn Văn Khoa",
+    "account": "Khoa",
+    "email": "khoait109@gmail.com"
+  }
+}]

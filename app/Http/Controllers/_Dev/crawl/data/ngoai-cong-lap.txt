@@ -1,0 +1,70 @@
+<div class="div-col columns column-width" style="-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+<ol>
+<li><a href="/w/index.php?title=Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Anh_qu%E1%BB%91c_Vi%E1%BB%87t_Nam&amp;action=edit&amp;redlink=1" class="new" title="Trường Đại học Anh quốc Việt Nam (trang chưa được viết)">Trường Đại học Anh quốc Việt Nam</a></li>
+<li><a href="/w/index.php?title=H%E1%BB%8Dc_vi%E1%BB%87n_Thi%E1%BA%BFt_k%E1%BA%BF_v%C3%A0_Th%E1%BB%9Di_trang_London&amp;action=edit&amp;redlink=1" class="new" title="Học viện Thiết kế và Thời trang London (trang chưa được viết)">Học viện Thiết kế và Thời trang London</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%A0_R%E1%BB%8Ba_-_V%C5%A9ng_T%C3%A0u" title="Trường Đại học Bà Rịa - Vũng Tàu">Trường Đại học Bà Rịa - Vũng Tàu</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%ACnh_D%C6%B0%C6%A1ng" title="Trường Đại học Bình Dương">Trường Đại học Bình Dương</a></li>
+<li><a href="/w/index.php?title=Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Bu%C3%B4n_Ma_Thu%E1%BB%99t&amp;action=edit&amp;redlink=1" class="new" title="Trường Đại học Buôn Ma Thuột (trang chưa được viết)">Trường Đại học Buôn Ma Thuột</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Chu_V%C4%83n_An" title="Trường Đại học Chu Văn An">Trường Đại học Chu Văn An</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_%C4%90%C3%B4ng_%C3%81" title="Trường Đại học Công nghệ Đông Á">Trường Đại học Công nghệ Đông Á</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_%C4%90%E1%BB%93ng_Nai" title="Trường Đại học Công nghệ Đồng Nai">Trường Đại học Công nghệ Đồng Nai</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_S%C3%A0i_G%C3%B2n" title="Trường Đại học Công nghệ Sài Gòn">Trường Đại học Công nghệ Sài Gòn</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh" title="Trường Đại học Công nghệ Thành phố Hồ Chí Minh">Trường Đại học Công nghệ Thành phố Hồ Chí Minh</a></li>
+<li><a href="/w/index.php?title=Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_v%C3%A0_Qu%E1%BA%A3n_l%C3%BD_H%E1%BB%AFu_ngh%E1%BB%8B&amp;action=edit&amp;redlink=1" class="new" title="Trường Đại học Công nghệ và Quản lý Hữu nghị (trang chưa được viết)">Trường Đại học Công nghệ và Quản lý Hữu nghị</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_V%E1%BA%A1n_Xu%C3%A2n" title="Trường Đại học Công nghệ Vạn Xuân">Trường Đại học Công nghệ Vạn Xuân</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_nghi%E1%BB%87p_Vinh" title="Trường Đại học Công nghiệp Vinh">Trường Đại học Công nghiệp Vinh</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%E1%BB%ADu_Long" title="Trường Đại học Cửu Long">Trường Đại học Cửu Long</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_T%C3%A2y_%C4%90%C3%B4" title="Trường Đại học Tây Đô">Trường Đại học Tây Đô</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Duy_T%C3%A2n" title="Trường Đại học Duy Tân">Trường Đại học Duy Tân</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%E1%BA%A1i_Nam" title="Trường Đại học Đại Nam">Trường Đại học Đại Nam</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%B4ng_%C3%81" title="Trường Đại học Đông Á">Trường Đại học Đông Á</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%B4ng_%C4%90%C3%B4" title="Trường Đại học Đông Đô">Trường Đại học Đông Đô</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_FPT" title="Trường Đại học FPT">Trường Đại học FPT</a></li>
+<li><a href="/w/index.php?title=Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Fulbright_Vi%E1%BB%87t_Nam&amp;action=edit&amp;redlink=1" class="new" title="Trường Đại học Fulbright Việt Nam (trang chưa được viết)">Trường Đại học Fulbright Việt Nam</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_t%C6%B0_th%E1%BB%A5c_C%C3%B4ng_ngh%E1%BB%87_-_Th%C3%B4ng_tin_Gia_%C4%90%E1%BB%8Bnh" title="Trường Đại học tư thục Công nghệ - Thông tin Gia Định">Trường Đại học Gia Định</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_H%C3%A0_Hoa_Ti%C3%AAn" title="Trường Đại học Hà Hoa Tiên">Trường Đại học Hà Hoa Tiên</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_D%C3%A2n_l%E1%BA%ADp_H%E1%BA%A3i_Ph%C3%B2ng" title="Trường Đại học Dân lập Hải Phòng">Trường Đại học Hải Phòng</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_H%C3%B2a_B%C3%ACnh" title="Trường Đại học Hòa Bình">Trường Đại học Hòa Bình</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Hoa_Sen" title="Trường Đại học Hoa Sen">Trường Đại học Hoa Sen</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_H%C3%B9ng_V%C6%B0%C6%A1ng_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh" title="Trường Đại học Hùng Vương Thành phố Hồ Chí Minh">Trường Đại học Hùng Vương Thành phố Hồ Chí Minh</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Ki%E1%BA%BFn_tr%C3%BAc_%C4%90%C3%A0_N%E1%BA%B5ng" title="Trường Đại học Kiến trúc Đà Nẵng">Trường Đại học Kiến trúc Đà Nẵng</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Kinh_B%E1%BA%AFc" title="Trường Đại học Kinh Bắc">Trường Đại học Kinh Bắc</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Kinh_doanh_v%C3%A0_C%C3%B4ng_ngh%E1%BB%87_H%C3%A0_N%E1%BB%99i" title="Trường Đại học Kinh doanh và Công nghệ Hà Nội">Trường Đại học Kinh doanh và Công nghệ Hà Nội</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Kinh_t%E1%BA%BF_C%C3%B4ng_nghi%E1%BB%87p_Long_An" title="Trường Đại học Kinh tế Công nghiệp Long An">Trường Đại học Kinh tế - Công nghiệp Long An</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Kinh_t%E1%BA%BF-_K%E1%BB%B9_thu%E1%BA%ADt_B%C3%ACnh_D%C6%B0%C6%A1ng" title="Trường Đại học Kinh tế- Kỹ thuật Bình Dương">Trường Đại học Kinh tế- Kỹ thuật Bình Dương</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Kinh_t%E1%BA%BF_-_T%C3%A0i_ch%C3%ADnh_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh" title="Trường Đại học Kinh tế - Tài chính Thành phố Hồ Chí Minh">Trường Đại học Kinh tế - Tài chính Thành phố Hồ Chí Minh</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_L%E1%BA%A1c_H%E1%BB%93ng" title="Trường Đại học Lạc Hồng">Trường Đại học Lạc Hồng</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_L%C6%B0%C6%A1ng_Th%E1%BA%BF_Vinh" title="Trường Đại học Lương Thế Vinh">Trường Đại học Lương Thế Vinh</a></li>
+<li><a href="/w/index.php?title=Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_M%E1%BB%B9_t%E1%BA%A1i_Vi%E1%BB%87t_Nam_-_AUV_%C4%90%C3%A0_N%E1%BA%B5ng&amp;action=edit&amp;redlink=1" class="new" title="Trường Đại học Mỹ tại Việt Nam - AUV Đà Nẵng (trang chưa được viết)">Trường Đại học Mỹ tại Việt Nam - AUV Đà Nẵng</a></li>
+<li><a href="/w/index.php?title=Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_M%E1%BB%B9_thu%E1%BA%ADt_C%C3%B4ng_nghi%E1%BB%87p_%C3%81_Ch%C3%A2u&amp;action=edit&amp;redlink=1" class="new" title="Trường Đại học Mỹ thuật Công nghiệp Á Châu (trang chưa được viết)">Trường Đại học Mỹ thuật Công nghiệp Á Châu</a></li>
+<li><a href="/w/index.php?title=Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Nam_C%E1%BA%A7n_Th%C6%A1&amp;action=edit&amp;redlink=1" class="new" title="Trường Đại học Nam Cần Thơ (trang chưa được viết)">Trường Đại học Nam Cần Thơ</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Ngo%E1%BA%A1i_ng%E1%BB%AF_Tin_h%E1%BB%8Dc_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh" title="Trường Đại học Ngoại ngữ Tin học Thành phố Hồ Chí Minh">Trường Đại học Ngoại ngữ Tin học Thành phố Hồ Chí Minh</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Nguy%E1%BB%85n_T%E1%BA%A5t_Th%C3%A0nh" title="Trường Đại học Nguyễn Tất Thành">Trường Đại học Nguyễn Tất Thành</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Nguy%E1%BB%85n_Tr%C3%A3i" title="Trường Đại học Nguyễn Trãi">Trường Đại học Nguyễn Trãi</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Phan_Ch%C3%A2u_Trinh" title="Trường Đại học Phan Châu Trinh">Trường Đại học Phan Châu Trinh</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Phan_Thi%E1%BA%BFt" title="Trường Đại học Phan Thiết">Trường Đại học Phan Thiết</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Ph%C3%BA_Xu%C3%A2n" title="Trường Đại học Phú Xuân">Trường Đại học Phú Xuân</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Ph%C6%B0%C6%A1ng_%C4%90%C3%B4ng_(Vi%E1%BB%87t_Nam)" title="Trường Đại học Phương Đông (Việt Nam)">Trường Đại học Phương Đông</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Quang_Trung" title="Trường Đại học Quang Trung">Trường Đại học Quang Trung</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Qu%E1%BB%91c_t%E1%BA%BF_H%E1%BB%93ng_B%C3%A0ng" title="Trường Đại học Quốc tế Hồng Bàng">Trường Đại học Quốc tế Hồng Bàng</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Qu%E1%BB%91c_t%E1%BA%BF_B%E1%BA%AFc_H%C3%A0" title="Trường Đại học Quốc tế Bắc Hà">Trường Đại học Quốc tế Bắc Hà</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Qu%E1%BB%91c_t%E1%BA%BF_Mi%E1%BB%81n_%C4%90%C3%B4ng" title="Trường Đại học Quốc tế Miền Đông">Trường Đại học Quốc tế Miền Đông</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Qu%E1%BB%91c_t%E1%BA%BF_S%C3%A0i_G%C3%B2n" title="Trường Đại học Quốc tế Sài Gòn">Trường Đại học Quốc tế Sài Gòn</a></li>
+<li><a href="/wiki/%C4%90%E1%BA%A1i_h%E1%BB%8Dc_RMIT_Vi%E1%BB%87t_Nam" title="Đại học RMIT Việt Nam">Trường Đại học RMIT</a></li>
+<li><a href="/w/index.php?title=Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_T%C3%A0i_ch%C3%ADnh_-_Ng%C3%A2n_h%C3%A0ng_H%C3%A0_N%E1%BB%99i&amp;action=edit&amp;redlink=1" class="new" title="Trường Đại học Tài chính - Ngân hàng Hà Nội (trang chưa được viết)">Trường Đại học Tài chính - Ngân hàng Hà Nội</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_T%C3%A2n_T%E1%BA%A1o" title="Trường Đại học Tân Tạo">Trường Đại học Tân Tạo</a></li>
+<li><a href="/w/index.php?title=Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Tr%C6%B0ng_V%C6%B0%C6%A1ng&amp;action=edit&amp;redlink=1" class="new" title="Trường Đại học Trưng Vương (trang chưa được viết)">Trường Đại học Trưng Vương</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Th%C3%A0nh_%C4%90%C3%B4" title="Trường Đại học Thành Đô">Trường Đại học Thành Đô</a></li>
+<li><a href="/wiki/Th%E1%BA%A3o_lu%E1%BA%ADn:Th%C3%A0nh_%C4%90%C3%B4ng" title="Thảo luận:Thành Đông">Trường Đại học Thành Đông</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Th%C3%A0nh_T%C3%A2y" title="Trường Đại học Thành Tây">Trường Đại học Thành Tây</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Th%C4%83ng_Long" title="Trường Đại học Thăng Long">Trường Đại học Thăng Long</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Th%C3%A1i_B%C3%ACnh_D%C6%B0%C6%A1ng" title="Trường Đại học Thái Bình Dương">Trường Đại học Thái Bình Dương</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_V%C4%83n_Hi%E1%BA%BFn" title="Trường Đại học Văn Hiến">Trường Đại học Văn Hiến</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_D%C3%A2n_l%E1%BA%ADp_V%C4%83n_Lang" class="mw-redirect" title="Trường Đại học Dân lập Văn Lang">Trường Đại học Văn Lang</a></li>
+<li><a href="/w/index.php?title=Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Vi%E1%BB%87t_B%E1%BA%AFc&amp;action=edit&amp;redlink=1" class="new" title="Trường Đại học Việt Bắc (trang chưa được viết)">Trường Đại học Việt Bắc</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_V%C3%B5_Tr%C6%B0%E1%BB%9Dng_To%E1%BA%A3n" title="Trường Đại học Võ Trường Toản">Trường Đại học Võ Trường Toản</a></li>
+<li><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_D%C3%A2n_l%E1%BA%ADp_Yersin_%C4%90%C3%A0_L%E1%BA%A1t" title="Trường Đại học Dân lập Yersin Đà Lạt">Trường Đại học Yersin Đà Lạt</a></li>
+<li><a href="/w/index.php?title=Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Y_khoa_Tokyo_Vi%E1%BB%87t_Nam&amp;action=edit&amp;redlink=1" class="new" title="Trường Đại học Y khoa Tokyo Việt Nam (trang chưa được viết)">Trường Đại học Y khoa Tokyo Việt Nam</a></li>
+<li><a href="/w/index.php?title=Ph%C3%A2n_hi%E1%BB%87u_Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%ACnh_D%C6%B0%C6%A1ng_t%E1%BA%A1i_C%C3%A0_Mau&amp;action=edit&amp;redlink=1" class="new" title="Phân hiệu Trường Đại học Bình Dương tại Cà Mau (trang chưa được viết)">Phân hiệu Trường Đại học Bình Dương tại Cà Mau</a></li>
+</ol>
+</div>

@@ -1,0 +1,34 @@
+<div class="div-col columns column-width" style="-moz-column-width: 20em; -webkit-column-width: 20em; column-width: 20em;">
+<ol>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_%C3%82m_nh%E1%BA%A1c_Hu%E1%BA%BF" title="Học viện Âm nhạc Huế">Học viện Âm nhạc Huế</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_%C3%82m_nh%E1%BA%A1c_Qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam" title="Học viện Âm nhạc Quốc gia Việt Nam">Học viện Âm nhạc Quốc gia Việt Nam</a></li>
+<li><b><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_B%C3%A1o_ch%C3%AD_v%C3%A0_Tuy%C3%AAn_truy%E1%BB%81n" title="Học viện Báo chí và Tuyên truyền">Học viện Báo chí và Tuyên truyền</a></b></li>
+<li><a href="/w/index.php?title=H%E1%BB%8Dc_vi%E1%BB%87n_C%C3%A1n_b%E1%BB%99_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh&amp;action=edit&amp;redlink=1" class="new" title="Học viện Cán bộ Thành phố Hồ Chí Minh (trang chưa được viết)">Học viện Cán bộ Thành phố Hồ Chí Minh</a></li>
+<li><a href="/w/index.php?title=H%E1%BB%8Dc_vi%E1%BB%87n_C%C3%A1n_b%E1%BB%99_Qu%E1%BA%A3n_l%C3%BD_x%C3%A2y_d%E1%BB%B1ng_v%C3%A0_%C4%91%C3%B4_th%E1%BB%8B&amp;action=edit&amp;redlink=1" class="new" title="Học viện Cán bộ Quản lý xây dựng và đô thị (trang chưa được viết)">Học viện Cán bộ Quản lý xây dựng và đô thị</a></li>
+<li><a href="/w/index.php?title=H%E1%BB%8Dc_vi%E1%BB%87n_Ch%C3%ADnh_s%C3%A1ch_v%C3%A0_ph%C3%A1t_tri%E1%BB%83n&amp;action=edit&amp;redlink=1" class="new" title="Học viện Chính sách và phát triển (trang chưa được viết)">Học viện Chính sách và phát triển</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_Ch%C3%ADnh_tr%E1%BB%8B_-_H%C3%A0nh_ch%C3%ADnh_Qu%E1%BB%91c_gia_H%E1%BB%93_Ch%C3%AD_Minh" class="mw-redirect" title="Học viện Chính trị - Hành chính Quốc gia Hồ Chí Minh">Học viện Chính trị - Hành chính Quốc gia Hồ Chí Minh</a></li>
+<li><a href="/w/index.php?title=H%E1%BB%8Dc_vi%E1%BB%87n_D%C3%A2n_t%E1%BB%99c&amp;action=edit&amp;redlink=1" class="new" title="Học viện Dân tộc (trang chưa được viết)">Học viện Dân tộc</a></li>
+<li><a href="/w/index.php?title=H%E1%BB%8Dc_vi%E1%BB%87n_X%C3%A2y_d%E1%BB%B1ng_%C4%90%E1%BA%A3ng&amp;action=edit&amp;redlink=1" class="new" title="Học viện Xây dựng Đảng (trang chưa được viết)">Học viện Xây dựng Đảng</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_C%C3%B4ng_ngh%E1%BB%87_B%C6%B0u_ch%C3%ADnh_Vi%E1%BB%85n_th%C3%B4ng" title="Học viện Công nghệ Bưu chính Viễn thông">Học viện Công nghệ Bưu chính Viễn thông</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_C%C3%B4ng_ngh%E1%BB%87_B%C6%B0u_ch%C3%ADnh_Vi%E1%BB%85n_th%C3%B4ng_c%C6%A1_s%E1%BB%9F_2,_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh" title="Học viện Công nghệ Bưu chính Viễn thông cơ sở 2, Thành phố Hồ Chí Minh">Học viện Công nghệ Bưu chính Viễn thông cơ sở 2, Thành phố Hồ Chí Minh</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_H%C3%A0ng_kh%C3%B4ng_Vi%E1%BB%87t_Nam" title="Học viện Hàng không Việt Nam">Học viện Hàng không Việt Nam</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_H%C3%A0nh_ch%C3%ADnh_(Vi%E1%BB%87t_Nam)" title="Học viện Hành chính (Việt Nam)">Học viện Hành chính</a></li>
+<li><a href="/w/index.php?title=H%E1%BB%8Dc_vi%E1%BB%87n_H%C3%A0nh_ch%C3%ADnh_c%C6%A1_s%E1%BB%9F_2,_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh&amp;action=edit&amp;redlink=1" class="new" title="Học viện Hành chính cơ sở 2, Thành phố Hồ Chí Minh (trang chưa được viết)">Học viện Hành chính cơ sở 2, Thành phố Hồ Chí Minh</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_Khoa_h%E1%BB%8Dc_v%C3%A0_C%C3%B4ng_ngh%E1%BB%87" title="Học viện Khoa học và Công nghệ">Học viện Khoa học và Công nghệ</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_Khoa_h%E1%BB%8Dc_X%C3%A3_h%E1%BB%99i" title="Học viện Khoa học Xã hội">Học viện Khoa học xã hội</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_Ng%C3%A2n_h%C3%A0ng_(Vi%E1%BB%87t_Nam)" title="Học viện Ngân hàng (Việt Nam)">Học viện Ngân hàng</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_Ngo%E1%BA%A1i_giao_(Vi%E1%BB%87t_Nam)" title="Học viện Ngoại giao (Việt Nam)">Học viện Ngoại giao Việt Nam</a></li>
+<li><b><a href="/wiki/Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_N%C3%B4ng_nghi%E1%BB%87p_H%C3%A0_N%E1%BB%99i" class="mw-redirect" title="Trường Đại học Nông nghiệp Hà Nội">Học viện Nông nghiệp Việt Nam</a></b></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_Ph%E1%BB%A5_n%E1%BB%AF_Vi%E1%BB%87t_Nam" title="Học viện Phụ nữ Việt Nam">Học viện Phụ nữ Việt Nam</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_Qu%E1%BA%A3n_l%C3%BD_Gi%C3%A1o_d%E1%BB%A5c" title="Học viện Quản lý Giáo dục">Học viện Quản lý Giáo dục</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_T%C3%A0i_ch%C3%ADnh_(Vi%E1%BB%87t_Nam)" title="Học viện Tài chính (Việt Nam)">Học viện Tài chính</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_T%C3%B2a_%C3%A1n" title="Học viện Tòa án">Học viện Tòa án</a></li>
+<li><a href="/w/index.php?title=H%E1%BB%8Dc_vi%E1%BB%87n_Thanh_thi%E1%BA%BFu_ni%C3%AAn&amp;action=edit&amp;redlink=1" class="new" title="Học viện Thanh thiếu niên (trang chưa được viết)">Học viện Thanh thiếu niên</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_T%C6%B0_ph%C3%A1p_Vi%E1%BB%87t_Nam" title="Học viện Tư pháp Việt Nam">Học viện Tư Pháp</a></li>
+<li><a href="/wiki/H%E1%BB%8Dc_vi%E1%BB%87n_Y_d%C6%B0%E1%BB%A3c_h%E1%BB%8Dc_c%E1%BB%95_truy%E1%BB%81n_Vi%E1%BB%87t_Nam" title="Học viện Y dược học cổ truyền Việt Nam">Học viện Y dược học cổ truyền Việt Nam</a></li>
+<li><a href="/wiki/Nh%E1%BA%A1c_vi%E1%BB%87n_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh" title="Nhạc viện Thành phố Hồ Chí Minh">Nhạc viện Thành phố Hồ Chí Minh</a></li>
+<li><a href="/w/index.php?title=Ph%C3%A2n_vi%E1%BB%87n_H%E1%BB%8Dc_vi%E1%BB%87n_Ng%C3%A2n_h%C3%A0ng_t%E1%BA%A1i_B%E1%BA%AFc_Ninh&amp;action=edit&amp;redlink=1" class="new" title="Phân viện Học viện Ngân hàng tại Bắc Ninh (trang chưa được viết)">Phân viện Học viện Ngân hàng tại Bắc Ninh</a></li>
+<li><a href="/w/index.php?title=Ph%C3%A2n_vi%E1%BB%87n_H%E1%BB%8Dc_vi%E1%BB%87n_Ng%C3%A2n_h%C3%A0ng_t%E1%BA%A1i_Ph%C3%BA_Y%C3%AAn&amp;action=edit&amp;redlink=1" class="new" title="Phân viện Học viện Ngân hàng tại Phú Yên (trang chưa được viết)">Phân viện Học viện Ngân hàng tại Phú Yên</a></li>
+<li><a href="/w/index.php?title=Ph%C3%A2n_vi%E1%BB%87n_H%E1%BB%8Dc_vi%E1%BB%87n_Thanh_thi%E1%BA%BFu_ni%C3%AAn_t%E1%BA%A1i_Th%C3%A0nh_ph%E1%BB%91_H%E1%BB%93_Ch%C3%AD_Minh&amp;action=edit&amp;redlink=1" class="new" title="Phân viện Học viện Thanh thiếu niên tại Thành phố Hồ Chí Minh (trang chưa được viết)">Phân viện Học viện Thanh thiếu niên tại Thành phố Hồ Chí Minh</a></li>
+</ol>
+</div>

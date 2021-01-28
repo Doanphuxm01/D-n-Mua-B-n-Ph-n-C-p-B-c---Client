@@ -1,0 +1,549 @@
+<?php
+/**
+ * Created by ngankt2@gmail.com
+ * Website: https://techhandle.net
+ */
+
+
+namespace App\Http\Models;
+
+
+use App\Elibs\Debug;
+use App\Elibs\Helper;
+
+class Role extends BaseModel
+{
+
+    public $timestamps = FALSE;
+    const table_name = 'setting_roles';//key role
+    protected $table = self::table_name;
+    static $unguarded = TRUE;
+    static $currentRole = [];//luu id member và id project làm key, value là danh sách role tương ứng
+
+    static $permissionByGroup = [];
+    const SESSION_KEY_FOR_ROLE_MEMBER = 'SESSION_KEY_FOR_ROLE_MEMBER';
+
+    /**
+     * @param array $rolesAllow
+     * @param  $project
+     * @return bool
+     * todo: ngannv note: Có 1 lỗ hổng nằm ở case: quyền hiện tại mang check là của dự án hiện tại, dữ liệu can thiệp (bản ghi) có thể là thuộc dự án khác
+     * và hiện tại việc kết hợp giữa haveRole và haveAccessProject chưa thực sự đúng,
+     * Cần call như sau: Role::haveRole(role,project_id)
+     */
+
+    static $roleGroupName = [
+        'group_admin' => 'Admin',
+        'group_quan_tri' => 'Quản trị',
+        'group_khoi_quan_ly_quan_ly' => 'Quản lý',
+        'group_khoi_quan_ly_ql_hop_dong' => 'Quản lý hợp đồng',
+        'group_khoi_quan_ly_ql_nhan_su' => 'Quản lý nhân sự',
+        'group_khoi_quan_ly_nhan_vien' => 'Nhân viên( Nhóm quản lý)',
+        'group_khoi_san_xuat_ql_phong' => 'Quản lý phòng',
+        'group_khoi_san_xuat_tro_ly_phong' => 'Trợ lý phòng',
+        'group_khoi_san_xuat_ql_du_an' => 'Quản lý dự án',
+        'group_khoi_san_xuat_tro_ly_du_an' => 'Trợ lý dự án',
+        'group_khoi_san_xuat_nhan_vien' => 'Nhân viên',
+        'group_quyen_mac_dinh' => 'Mặc định',
+    ];
+
+    static function haveRole($rolesAllow = [], $project = FALSE, $department = FALSE)
+    {
+        //return True;
+        if (self::isRoot()) {
+            return TRUE;
+        }
+        if (!$rolesAllow) {
+            return FALSE;
+        }
+        $currentRole = self::haveAccessProject($project);
+        if (!$currentRole) {
+            return false;
+        }
+        if (isset($currentRole['member']['is_root']) && $currentRole['member']['is_root']) {
+            return TRUE;
+        }
+        if (!is_array($rolesAllow)) {
+            $rolesAllow = [$rolesAllow];
+        }
+        if (count($rolesAllow) < count($currentRole['permission_list'])) {
+            $roleSub = $rolesAllow;
+            $roleParent = $currentRole['permission_list'];
+        } else {
+            $roleSub = $currentRole['permission_list'];
+            $roleParent = $rolesAllow;
+        }
+        if (array_intersect($roleSub, $roleParent) == $roleSub) {
+            return TRUE;
+        }
+
+        return FALSE;
+
+    }
+
+    static function haveRole2($rolesAllow = [], $project = FALSE, $department = FALSE)
+    {
+
+        if (self::isRoot()) {
+            return true;
+        }
+        if (!$rolesAllow) {
+            return FALSE;
+        }
+        $currentRole = self::getPermissionByGroup();
+        if (!$currentRole) {
+            return false;
+        }
+        if (!is_array($rolesAllow)) {
+            $rolesAllow = [$rolesAllow];
+        }
+        if (count($rolesAllow) < count($currentRole)) {
+            $roleSub = $rolesAllow;
+            $roleParent = $currentRole;
+
+        } else {
+            $roleSub = $currentRole;
+            $roleParent = $rolesAllow;
+        }
+
+        $intersect = array_intersect($roleSub, $roleParent);
+        if (!empty($intersect) && $intersect == $roleSub) {
+            return true;
+        }
+
+
+        return FALSE;
+
+    }
+
+    static function isBelongGroupManage($accountId = null)
+    {
+
+        if (self::isRoot()) {
+            return true;
+        }
+        if ($accountId) {
+            $cur = Member::find($accountId);
+        } else {
+            $cur = Member::getCurent();
+        }
+        $permissionGroup = isset($cur['role_group']) ? $cur['role_group'] : self::group_quyen_mac_dinh;
+        return in_array($permissionGroup, [
+            self::group_admin,
+            self::group_quan_tri,
+            self::group_khoi_quan_ly_nhan_vien,
+            self::group_khoi_quan_ly_ql_hop_dong,
+            self::group_khoi_quan_ly_ql_nhan_su,
+            self::group_khoi_quan_ly_quan_ly,
+        ]);
+    }
+
+
+    static function haveAccessProject($project = FALSE)
+    {
+        if (self::isRoot()) {
+            return TRUE;
+        }
+        if (!$project) {
+            $project = Project::$curentProject;
+        }
+        if (!$project) {
+            return FALSE;
+        }
+
+
+        if (is_string($project)) {
+            $project_id = $project;
+        } else {
+            $project_id = $project['_id'];
+            if (isset($project['created_by']['id']) && $project['created_by']['id'] == Member::getCurentId()) {
+                $currentRole['member'] = $project['created_by'];
+                $currentRole['member']['is_root'] = true;
+
+                return $currentRole;//chinhs chur
+            }
+        }
+
+        if (isset(self::$currentRole[$project_id . Member::getCurentId()])) {
+            $currentRole = self::$currentRole[$project_id . Member::getCurentId()];
+        } else {
+
+            $projectPermis = ProjectPermission::getPermissionOfStaff(Member::getCurentId(), $project_id);
+            if (!$projectPermis) {
+                return FALSE;
+            }
+
+            self::$currentRole[$project_id . Member::getCurentId()] = $projectPermis;
+            $currentRole = $projectPermis;
+        }
+        if (isset($currentRole['member']['is_root']) && $currentRole['member']['is_root'] == TRUE && $currentRole['member']['id'] == Member::getCurentId()) {
+            return $currentRole; //chính chủ
+        }
+        if (!isset($currentRole['permission_list'])) {
+            return FALSE;
+        } else {
+            return $currentRole;
+        }
+    }
+
+    static function isAdmin()
+    {
+        return self::isRoot();
+    }
+
+    static function isRoot()
+    {
+
+        if (!Member::$currentMember) {
+            return FALSE;
+        }
+        return in_array(Member::$currentMember['account'], Member::ROOT_ACCOUNT);
+    }
+
+    static function getPermissionByGroup()
+    {
+        if (empty(self::$permissionByGroup)) {
+            $cur = Member::getCurent();
+            $permissionGroup = isset($cur['role_group']) && !empty($cur['role_group']) ? $cur['role_group'] : self::group_quyen_mac_dinh;
+            $roles = Role::first()->toArray();
+
+            $permission = collect($roles)->first(function ($item) use ($permissionGroup) {
+                return isset($item['key']) && $item['key'] == $permissionGroup;
+
+            });
+//        return $permissionGroup;
+            self::$permissionByGroup = isset($permission['value']) ? $permission['value'] : [];
+        }
+        return self::$permissionByGroup;
+
+
+    }
+
+    static function getCurrentPermissionGroup()
+    {
+        $cur = Member::getCurent();
+        $permissionGroup = isset($cur['role_group']) ? $cur['role_group'] : self::group_quyen_mac_dinh;
+        return $permissionGroup;
+    }
+
+    const mng_account_update = 'mng_account_update';
+    const mng_account = 'mng_account';
+    const mng_role = 'mng_role';
+
+    const  mng_staff = 'mng_staff';
+    const  mng_news = 'mng_news';
+    const  mng_news_update = 'mng_news_update';
+    const  mng_news_delete = 'mng_news_delete';
+
+    const mng_calendar = 'mng_calendar';
+    const mng_calendar_update = 'mng_calendar_update';
+    const mng_calendar_delete = 'mng_calendar_delete';
+
+    const mng_album = 'mng_album';
+    const mng_ho_so = 'mng_ho_so';
+    const mng_log = 'mng_log';
+    const mng_category = 'mng_category';
+
+    const mng_folder = 'mng_folder';
+    const mng_folder_update = 'mng_folder_update';
+
+    /*Developer*/
+    const mng_developer = 'mng_developer';
+    /*endDeveloper*/
+
+    /*Role action*/
+    const mng_action_list = 'list';
+    const mng_action_view = 'view';
+    const mng_action_view_all = 'view_all';
+    const mng_action_update = 'update';
+    const mng_action_edit = 'edit';
+    const mng_action_edit_cate = 'edit_cate';
+    const mng_action_edit_subject = 'edit_subject';
+    const mng_action_add = 'add';
+    const mng_action_dep = 'dep';
+    const mng_action_edit_of_me = 'edit_of_me';
+    const mng_action_delete = 'delete';
+    const mng_action_role = 'role';
+    const mng_action_mng_role = 'mng_role';
+    const mng_action_access_no_project = 'access_no_project';
+    const mng_action_access = 'access';
+
+    static function getRoleKey($mngObj, $mngAction)
+    {
+        return $mngObj . '_' . $mngAction;
+    }
+
+    static function getListRole()
+    {
+        $key = [
+            [
+                'name' => 'Thư viện ảnh',
+                'key' => self::mng_album,
+                'brief' => '',
+                'role' => [
+                    'view' => 'Xem ảnh',
+                    'add' => 'Thêm ảnh mới',
+                    'delete' => 'Xoá ảnh',
+                    'edit_of_me' => 'Sửa ảnh của chính mình',
+                    'edit' => 'Sửa ảnh của người khác',
+                    'view_all' => 'Truy cập ảnh của tất cả các dự án'
+                ]
+            ],
+            [
+                'name' => 'Tin tức',
+                'key' => self::mng_news,
+                'brief' => '',
+                'role' => [
+                    'view_all' => 'Xem tất cả các bài viết',
+                    'view_list_of_me' => 'Chỉ xem các bài viết của mình, hoặc liên quan đến mình',
+                    'add' => 'Đăng tin',
+                    'delete' => 'Xoá',
+                    'edit_of_me' => 'Sửa tin của chính mình',
+                    'edit' => 'Sửa tin của người khác',
+                ]
+            ],[
+                'name' => 'Quản lý nhân sự',
+                'key' => self::mng_staff,
+                'brief' => '',
+                'role' => [
+                    'view' => 'Xem thông tin cá nhân',
+                    'list' => 'Xem danh sách nhân sự',
+                    'add' => 'Thêm nhân sự',
+                    'dep' => 'Quản lý phòng ban',
+                    'edit' => 'Sửa thông tin nhân sự',
+                    'delete' => 'Xoá nhân sự',
+                    'role' => 'Phân quyền nhân sự',
+                    'mng_role' => 'Phân quyền hệ thống',
+                    'view_all' => 'Xem toàn bộ nhân sự',
+                ]
+            ], [
+                'name' => 'Bảng dữ liệu',
+                'key' => self::mng_category,
+                'brief' => '',
+                'role' => [
+                    'view' => 'Xem bảng dữ liệu hệ thống',
+                    'edit' => 'Sửa thông tin',
+                ]
+            ], [
+                'name' => 'Thông tin hệ thống',
+                'key' => self::mng_log,
+                'brief' => '',
+                'role' => [
+                    'view' => 'Quản lý log',
+                ]
+            ],
+        ];
+
+        return $key;
+    }
+
+    static function getListRoleKey()
+    {
+        return null;
+        $listRole = Role::getListRole();
+        $allRokeKey = [];
+        foreach ($listRole as $ks => $vs) {
+            foreach ($vs->role as $x => $y) {
+                $allRokeKey[$x] = $y;
+            }
+        }
+        return $allRokeKey;
+    }
+
+    const group_admin = 'group_admin';
+    const group_quan_tri = 'group_quan_tri';
+    const group_khoi_quan_ly_quan_ly = 'group_khoi_quan_ly_quan_ly';
+    const group_khoi_quan_ly_ql_hop_dong = 'group_khoi_quan_ly_ql_hop_dong';
+    const group_khoi_quan_ly_ql_nhan_su = 'group_khoi_quan_ly_ql_nhan_su';
+    const group_khoi_quan_ly_nhan_vien = 'group_khoi_quan_ly_nhan_vien';
+
+    const group_khoi_san_xuat_ql_phong = 'group_khoi_san_xuat_ql_phong';
+    const group_khoi_san_xuat_tro_ly_phong = 'group_khoi_san_xuat_tro_ly_phong';
+    const group_khoi_san_xuat_ql_du_an = 'group_khoi_san_xuat_ql_du_an';
+    const group_khoi_san_xuat_tro_ly_du_an = 'group_khoi_san_xuat_tro_ly_du_an';
+    const group_khoi_san_xuat_nhan_vien = 'group_khoi_san_xuat_nhan_vien';
+    const group_quyen_mac_dinh = 'group_quyen_mac_dinh';
+
+
+    static function getListGroup()
+    {
+        $key = [
+            self::group_admin => [
+                'name' => 'Admin',
+                'fullname' => 'Admin',
+                'brief' => 'Nhóm Quản trị viên',
+                'key' => self::group_admin,
+
+                'color' => '#01A1C9',
+            ],
+        ];
+        return $key;
+    }
+
+    static function getListRoleProject()
+    {
+        return [];
+    }
+
+    static function queryWithProject($listObj)
+    {
+        #region Giới hạn dữ liệu truy cập
+        $accessProjectId = ProjectPermission::getAccessListProjectId();
+        if (is_array($accessProjectId)) {
+            $listObj = $listObj->where(
+                function ($query) use ($accessProjectId) {
+                    $query->whereIn('project', $accessProjectId)
+                        ->OrWhere('project', '$exists', false)
+                        ->OrWhere('project', []);
+                });
+        }
+        #endregion
+        return $listObj;
+    }
+
+    static function isOwner($obj, $member_id = "")
+    {
+        if ($member_id) {
+            $currentId = $member_id;
+        } else {
+            $currentId = Member::getCurentId();
+        }
+
+        if (isset($obj['created_by'])) {
+            if ($obj['created_by'] == $currentId) {
+                return true;
+            }
+        }
+        if (isset($obj['created_by']['id'])) {
+            if ($obj['created_by']['id'] == $currentId) {
+                return true;
+            }
+        }
+        return false;
+
+
+    }
+
+    static function handle_scope_data(
+        $can_view = [
+            'empty_dep' => false,
+            'empty_project' => false,
+            'same_dep_group' => false,
+
+        ]
+    )
+    {
+
+        $listProjectId = ProjectPermission::getAccessListProjectId();
+        $currentMember = Member::getCurent();
+        $can_view_empty_project = @$can_view['empty_project'];
+        $can_view_empty_dep = @$can_view['empty_dep'];
+        $can_view_same_dep_group = @$can_view['same_dep_group'];
+
+        //Case như sau
+        //có các văn bản như sau :
+        //1. có dự án
+        //2. không có dự án
+        //case được xem :
+        //1.related = all  :ai cũng được xem (văn bản toàn công ty)
+        //2.Có quyền xem văn bản  + có quyền xem văn bản cùng khối + có quyền xem văn bản ko dự án : tất cả văn bản của cùng khối bao gồm có dự án(dự án liên quan) và ko dự án
+        //3.Có quyền xem văn bản  + có quyền xem văn bản cùng khối + ko quyền xem văn bản ko dự án : tất cả văn bản của cùng khối bao gồm có dự án(dự án liên quan)
+        //4.Có quyền xem văn bản  + ko có quyền xem văn bản cùng khối + có quyền xem văn bản ko dự án  : xem văn bản của bộ phận mình mà có gắn dự án (dự án liên quan) và ko dự án
+        //5.Có quyền xem văn bản  + ko có quyền xem văn bản cùng khối + ko có quyền xem văn bản ko dự án  : xem được văn bản của của bộ phận mình mà có gắn dự án (dự án liên quan)
+        //dự án liên quan : là dự án mà người đó được thêm vào.
+        $where = [
+            'removed' => BaseModel::REMOVED_NO,
+        ];
+        if (!Role::isBelongGroupManage()) {
+            $tempOr = [];
+
+            #region xử lý project
+            if ($can_view_empty_project) {
+                //Được xem dữ liệu ko có dự án, + dự án của mình
+                $tempOr = [
+                    ['related' => 'all'],
+                    ['project' => ['$exists' => false],],
+                    ['project' => '',],
+                    ['project' => '0',],
+                    ['project' => 0,],
+                    ['project' => [],],
+                ];
+                if ($listProjectId) {
+                    $tempOr[] = ['project' => ['$in' => $listProjectId]];
+                    $tempOr[] = ['project.id' => ['$in' => $listProjectId]];
+                }
+            } else {
+                //ko xem dữ liệu ko có dự án, + được xem dự án của mình
+                //do thằng này chưa được gán vào dự án, mà cũng ko có quyền xem empty project
+                //người dùng nhịn , bằng cách query tới một key không có todo tạm chưa nghĩ ra
+                if (!$listProjectId) {
+                    $tempOr [] = ['project' => 'because_you_is_not_in_any_project'];
+                    $tempOr[] = ['project.id' => "because_you_is_not_in_any_project"];
+                    $tempOr[] = ['related' => 'all'];
+                } else {
+                    $tempOr[] = ['related' => 'all'];
+                    $tempOr[] = ['project' => ['$in' => $listProjectId]];
+                    $tempOr[] = ['project.id' => ['$in' => $listProjectId]];
+                }
+            }
+
+            #endregion
+
+            //case này do liên quan, nên ok
+            //liên quan đến project ok
+            if (!$can_view_same_dep_group) {
+                $where['$and'][] = ['$or' => $tempOr];
+            }
+
+
+            //handle riêng cho phòng ban
+
+            //nếu không có phòng ban nào thì next
+            if ($can_view_empty_dep) {
+                $tempDepQuery = [
+                    ['related' => 'all'],
+                    ['department' => ['$exists' => false],],
+                    ['department' => ''],
+                    ['department' => 0],
+                    ['department' => '0'],
+                    ['department' => []],
+                ];
+            }
+            if ($can_view_same_dep_group) {
+                $listDepSameGroup = MetaData::getDepartmentInMyGroup();
+                $listDepSameGroup = collect($listDepSameGroup)->pluck('_id')->map(function ($item) {
+                    return strval($item);
+                })->toArray();
+                if (!empty($listDepSameGroup)) {
+                    $tempDepQuery [] = ['department' => ['$in' => $listDepSameGroup]];
+                    $tempDepQuery [] = ['department.id' => ['$in' => $listDepSameGroup]];
+                }
+            }
+
+            if (isset($currentMember['department']['id'])) {
+                $tempDepQuery [] = ['department' => $currentMember['department']['id']];
+                $tempDepQuery [] = ['department.id' => $currentMember['department']['id']];
+                $tempDepQuery [] = ['related.department' => $currentMember['department']['id']];
+                $tempDepQuery [] = ['related.department.id' => $currentMember['department']['id']];
+            } else {
+                //chuyện gì xảy ra khi không tham gia phòng ban nào
+                //người dùng nhịn , bằng cách query tới một key không có todo tạm chưa nghĩ ra
+                // $where['department.you_dont_have_this_role'] = 'because_you_is_not_in_any_dep';
+                $tempDepQuery = [];
+            }
+
+            //Vẫn phải bổ sung thêm case liên quan trực tiếp tới dự án
+            if ($tempDepQuery) {
+                $where['$and'][] = ['$or' => $tempDepQuery];
+            }
+
+//            còn case related
+
+        }
+        /* $where = [
+             'removed' => BaseModel::REMOVED_NO,
+         ];*/
+        return $where;
+    }
+
+}

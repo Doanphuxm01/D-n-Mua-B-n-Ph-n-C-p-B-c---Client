@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minh Phuc</title>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.mmenu.all.css">
+</head>
+<body class="bg-gray">
+    <div id="app">
+        <myheader></myheader>
+    
+        <main class="page-order pb-5">
+            <breadcrumb></breadcrumb>
+            <div class="container-fluid mt-3">
+                <div class="bg-white shadow rounded-8 px-4 py-3 box-loaction mb-3">
+                    <span><i class="icon icon-location"></i> Địa chỉ nhận hàng</span>
+                    <p class="loaction">
+                        <b>Trần Mai Anh / (+84) 912345678</b>  22 Tràng Tiền, Quận Hoàn Kiếm, Hà Nội
+                        <a href="">Thay đổi địa chỉ</a>
+                    </p>
+                </div>
+                <div class="bg-white shadow rounded-8 px-4 py-3 mb-3 d-none d-md-block">
+                    <table class="table-list-order w-100 table-responsive d-block d-xl-table">
+                        <thead>
+                            <tr>
+                                <td><b class="fs-22 d-block" style="min-width: 470px;">Sản phẩm</b></td>
+                                <td align="center" class="text-nowrap"><b style="min-width: 210px" class="d-block fs-20 text-gray">Đơn giá</b></td>
+                                <td align="center" class="text-nowrap"><b style="min-width: 210px" class="d-block fs-20 text-gray">Số lượng</b></td>
+                                <td align="center" class="text-nowrap"><b style="min-width: 160px" class="d-block fs-20 text-gray">Số tiền</b></td>
+                                <td align="center" class="text-nowrap"><b style="min-width: 110px" class="d-block fs-20 text-gray">Thao tác</b></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="product d-flex align-items-center">
+                                        <a href="" class="img">
+                                            <img src="images/product-image.png" alt="">
+                                        </a>
+                                        <a href="#" class="link">Tinh dầu nước hoa Dubai</a>
+                                    </div>
+                                </td>
+                                <td align="center">
+                                    <span class="price fs-20">
+                                        650,000 đ
+                                    </span>
+                                </td>
+                                <td align="center">
+                                    <input type="number" value="1">
+                                </td>
+                                <td align="center">
+                                    <span class="price fs-20">
+                                        650,000 đ
+                                    </span>
+                                </td>
+                                <td align="center">
+                                    <a href="javascript:;" class="text-gray fs-20">
+                                        Xóa
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="product d-flex align-items-center">
+                                        <a href="" class="img">
+                                            <img src="images/product-image.png" alt="">
+                                        </a>
+                                        <a href="#" class="link">Tinh dầu nước hoa Dubai</a>
+                                    </div>
+                                </td>
+                                <td align="center">
+                                    <span class="price fs-20">
+                                        650,000 đ
+                                    </span>
+                                </td>
+                                <td align="center">
+                                    <input type="number" value="1">
+                                </td>
+                                <td align="center">
+                                    <span class="price fs-20">
+                                        650,000 đ
+                                    </span>
+                                </td>
+                                <td align="center">
+                                    <a href="javascript:;" class="text-gray fs-20">
+                                        Xóa
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="product-cart-list bg-white shadow rounded-8 px-2 px-sm-4 py-3 mb-3 d-block d-md-none">
+                    <div class="product-cart-item d-flex align-items-start mb-3 pb-3 border-bottom">
+                        <img src="images/img-product.png" class="img rounded-3 mr-3" alt="">
+                        <p>
+                            <span class="name d-block fs-18">Tinh dầu nước hoa Dubai</span>
+                            <span class="count fs-18">Đơn giá: <span class="text-danger">120.000đ</span></span>
+                            <span class="d-block my-2">x <input type="number" value="1" style="width: 40px;"></span>
+                            <span class="fs-18 d-block">Số tiền: <b class="text-danger">120.000đ</b></span>
+                        </p>
+                        <a href="javascript:;" class="ml-auto text-gray">Xóa</a>
+                    </div>
+                    <div class="product-cart-item d-flex align-items-start mb-3 pb-3 border-bottom">
+                        <img src="images/img-product.png" class="img rounded-3 mr-2" alt="">
+                        <p>
+                            <span class="name d-block fs-18">Tinh dầu nước hoa Dubai</span>
+                            <span class="count fs-18">Đơn giá: <span class="text-danger">120.000đ</span></span>
+                            <span class="d-block my-2">x <input type="number" value="1" style="width: 40px;"></span>
+                            <span class="fs-18 d-block">Số tiền: <b class="text-danger">120.000đ</b></span>
+                        </p>
+                        <a href="javascript:;" class="ml-auto text-gray">Xóa</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-8 pb-4">
+
+                    <div class="head-box-price bg-fff7dd rounded-8 d-flex flex-lg-row flex-column align-items-center justify-content-between p-3">
+
+                        <div class="note d-flex align-items-center flex-wrap flex-lg-nowrap col-lg-4 mb-3 mb-lg-0">
+                            <b class="fs-20 text-nowrap mr-3 col-title mb-2 mb-lg-0">Lời nhắn:</b>
+                            <textarea class="fs-20 form-control py-3 w-100" name="" id="" cols="30" rows="1" placeholder="Lưu ý cho người bán hàng....."></textarea>
+                        </div>
+
+                        <div class="shipping-unit d-flex align-items-center flex-wrap flex-md-nowrap col-lg-6 pl-lg-5  mb-3 mb-lg-0">
+                            <b class="fs-20 mr-4 col-title">Đơn vị vận chuyển:</b>
+                            <div class="unit-info">
+                                <b class="text-uppercase fs-24 text-theme d-block">VẬN CHUYỂN NHANH</b>
+                                <span class="fs-20 d-block">Giao hàng nhanh</span>
+                                <i class="fs-20 d-block text-theme">Nhận hàng vào 26 tháng 04 - 29 tháng 4</i>
+                            </div>
+                        </div>
+
+                        <div class="total d-flex align-items-center col-lg-2">
+                            <b class="fs-20 col-title">Phí vận chuyển:</b>
+                            <b class="price fs-20 ml-auto text-nowrap">0 đ</b>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex p-4">
+                        <div class="ml-auto">
+                            <table class="table-total">
+                                <tr>
+                                    <td>
+                                        <span class="fs-24 text-gray">Tổng tiền hàng (5 sản phẩm):</span>
+                                    </td>
+                                    <td align="right">
+                                        <b class="fs-34 price">1,068,000 đ</b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="fs-24 text-gray">Phí vận chuyển: </span>
+                                    </td>
+                                    <td align="right">
+                                        <span class="fs-24 text-gray">0 đ</span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <a href="#" class="btn-green float-right mt-4 fs-24 py-lg-3 px-lg-5">
+                                ĐẶT HÀNG
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+        <myfooter></myfooter>
+    </div>
+
+    <script src="js/vue.js"></script>
+    <script src="js/httpVueLoader.js"></script>
+    <script src="js/taikhoan.js"></script>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery.mmenu.all.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minh Phuc</title>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.mmenu.all.css">
+</head>
+<body class="bg-gray">
+    <div id="app">
+        <myheader></myheader>
+    
+        <main class="page-account pb-5">
+            <breadcrumb></breadcrumb>
+            <div class="container-fluid mt-3">
+                <div class="row">
+                    <div class="col-12 col-md-3 col-xl-2">
+                        <div class="sidebar-profile">
+                            <div class="user d-flex align-items-center">
+                                <div class="image">
+                                    <img src="https://via.placeholder.com/100" alt="">
+                                </div>
+                                <span class="name">
+                                    Minhphucgroup
+                                </span>
+                            </div>
+                            <div class="link-profile">
+                                <a href="#" class="d-flex link-1">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    Tài khoản của tôi
+                                </a>
+                                <a href="#" class="link-2">Hồ sơ thành viên</a>
+                                <a href="#" class="link-2">Địa chỉ nhận hàng</a>
+                                <a href="#" class="link-2">Đổi mật khẩu</a>
+                                
+                                <a href="#" class="d-flex link-1">
+                                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                    Đơn mua
+                                </a>
+
+                                <a href="#" class="d-flex link-1">
+                                    <i class="fa fa-bell-o" aria-hidden="true"></i>
+                                    Thông báo
+                                </a>
+                                <a href="#" class="link-2">Cập nhật đơn hàng</a>
+                                <a href="#" class="link-2">Khuyến mại</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xl-10">
+                        <div class="bg-white border mt-2 rounded-10 tab-order-status">
+                            <ul class="tab-list d-flex">
+                                <li class="item active">
+                                    <a href="#">Tất cả</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">Chờ lấy hàng</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">Đang giao hàng</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">Đã giao hàng</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#">Đã hủy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search-order rounded-10">
+                            <form action="" class="d-flex">
+                                <button class="btn-search"><i class="icon icon-search-2"></i></button>
+                                <input type="text" placeholder="Tìm kiếm theo đơn hàng, tên sản phẩm........">
+                            </form>
+                        </div>
+
+                        <div class="shadow rounded-10 mb-3 order-list-product bg-white">
+                            <div class="head d-flex flex-md-row flex-column px-3 pb-3 pt-3 border-bottom align-items-center mb-3">
+                                <div class="left d-flex align-items-start">
+                                    <img src="images/brand-ship.png" alt="">
+                                    <div>
+                                        <span class="fs-18 text-gray d-block line-h11">
+                                            Nhà cung cấp
+                                        </span>
+                                        <span class="fs-20">
+                                            alice.tieuquyen
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="right ml-md-auto mt-3 mt-md-0">
+                                    <i class="icon icon-ship-2 mr-2"></i>
+                                    <span class="fs-20">ĐANG GIAO HÀNG</span>
+                                </div>
+                            </div>
+                            <div class="table-product d-none d-md-block border-bottom py-3 px-4">
+                                <table class="w-100 table-responsive d-lg-table">
+                                    <thead>
+                                        <tr>
+                                            <td></td>
+                                            <td>
+                                                <b class="text-gray fs-20 title">
+                                                    Đơn giá
+                                                </b>
+                                            </td>
+                                            <td>
+                                                <b class="text-gray fs-20 title">
+                                                    Số tiền
+                                                </b>
+                                            </td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="product d-flex align-items-center">
+                                                    <img src="images/img-product.png" class="img" alt="">
+                                                    <p>
+                                                        <span class="name fs-20">Tinh dầu nước hoa Dubai</span>
+                                                        <span class="count fs-20">x1</span>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span class="fs-20">650,000 đ</span>
+                                            </td>
+                                            <td>
+                                                <span class="fs-20 price">650,000 đ</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="product d-flex align-items-center">
+                                                    <img src="images/img-product.png" class="img" alt="">
+                                                    <p>
+                                                        <span class="name fs-20">Tinh dầu nước hoa Dubai</span>
+                                                        <span class="count fs-20">x1</span>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span class="fs-20">650,000 đ</span>
+                                            </td>
+                                            <td>
+                                                <span class="fs-20 price">650,000 đ</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="product-cart-list p-3 d-block d-md-none">
+                                <div class="product-cart-item d-flex align-items-start mb-3 pb-3 border-bottom">
+                                    <img src="images/img-product.png" class="img rounded-3 mr-2" alt="">
+                                    <p>
+                                        <span class="name d-block fs-18">Tinh dầu nước hoa Dubai</span>
+                                        <span class="count fs-18 text-danger">120.000đ</span>
+                                        <span>x <span class="fs-18 text-danger">5</span></span>
+                                        <b class="fs-18 text-danger d-block">Số tiền: 120.000đ</b>
+                                    </p>
+                                </div>
+                                <div class="product-cart-item d-flex align-items-start mb-3 pb-3 border-bottom">
+                                    <img src="images/img-product.png" class="img rounded-3 mr-2" alt="">
+                                    <p>
+                                        <span class="name d-block fs-18">Tinh dầu nước hoa Dubai</span>
+                                        <span class="count fs-18 text-danger">120.000đ</span>
+                                        <span>x <span class="fs-18 text-danger">5</span></span>
+                                        <b class="fs-18 text-danger d-block">Số tiền: 120.000đ</b>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="bot px-4 pb-5">
+                                <p class="text-right fs-20 p-4">
+                                    TỔNG TIỀN HÀNG(5 sản phẩm):  <b class="price fs-30">1.068.000 đ</b>
+                                </p>
+                                <div class="btn-gr flex-md-row flex-column d-flex justify-content-end align-items-center">
+                                    <a href="javascript:;" class="btn-light">KHIẾU NẠI ĐƠN HÀNG</a> 
+                                    <a href="javascript:" class="btn-green">ĐÃ NHẬN HÀNG</a>
+                                    <a href="javascript:;" class="btn-light">CHI TIẾT ĐƠN HÀNG</a> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="shadow rounded-10 mb-3 order-list-product bg-white">
+                            <div class="p-4">
+                                <h4 class="fs-24 font-weight-normal">CHI TIẾT ĐƠN HÀNG</h4>
+                            </div>
+
+                            <div class="head d-flex flex-md-row flex-column px-3 pb-3 pt-3 border-bottom align-items-center mb-3">
+                                <div class="left d-flex align-items-start">
+                                    <img src="images/brand-ship.png" alt="">
+                                    <div>
+                                        <span class="fs-18 text-gray d-block line-h11">
+                                            Nhà cung cấp
+                                        </span>
+                                        <span class="fs-20">
+                                            alice.tieuquyen
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="right ml-md-auto mt-3 mt-md-0">
+                                    <i class="icon icon-ship-2 mr-2"></i>
+                                    <span class="fs-20 text-gray">Giao kiện thành công</span> <span class="fs-30 text-gray mx-3">|</span> <span class="fs-20 price">ĐÃ GIAO HÀNG</span>
+                                </div>
+                            </div>
+                            <div class="table-product d-none d-md-block border-bottom py-3 px-4 ">
+                                <table class="w-100 table-responsive d-lg-table">
+                                    <thead>
+                                        <tr>
+                                            <td></td>
+                                            <td>
+                                                <b class="text-gray fs-20 title">
+                                                    Đơn giá
+                                                </b>
+                                            </td>
+                                            <td>
+                                                <b class="text-gray fs-20 title">
+                                                    Số tiền
+                                                </b>
+                                            </td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="product d-flex align-items-center">
+                                                    <img src="images/img-product.png" class="img" alt="">
+                                                    <p>
+                                                        <span class="name fs-20">Tinh dầu nước hoa Dubai</span>
+                                                        <span class="count fs-20">x1</span>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span class="fs-20">650,000 đ</span>
+                                            </td>
+                                            <td>
+                                                <span class="fs-20 price">650,000 đ</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="product d-flex align-items-center">
+                                                    <img src="images/img-product.png" class="img" alt="">
+                                                    <p>
+                                                        <span class="name fs-20">Tinh dầu nước hoa Dubai</span>
+                                                        <span class="count fs-20">x1</span>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span class="fs-20">650,000 đ</span>
+                                            </td>
+                                            <td>
+                                                <span class="fs-20 price">650,000 đ</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+
+                            <div class="product-cart-list p-3 d-block d-md-none">
+                                <div class="product-cart-item d-flex align-items-start mb-3 pb-3 border-bottom">
+                                    <img src="images/img-product.png" class="img rounded-3 mr-2" alt="">
+                                    <p>
+                                        <span class="name d-block fs-18">Tinh dầu nước hoa Dubai</span>
+                                        <span class="count fs-18 text-danger">120.000đ</span>
+                                        <span>x <span class="fs-18 text-danger">5</span></span>
+                                        <b class="fs-18 text-danger d-block">Số tiền: 120.000đ</b>
+                                    </p>
+                                </div>
+                                <div class="product-cart-item d-flex align-items-start mb-3 pb-3 border-bottom">
+                                    <img src="images/img-product.png" class="img rounded-3 mr-2" alt="">
+                                    <p>
+                                        <span class="name d-block fs-18">Tinh dầu nước hoa Dubai</span>
+                                        <span class="count fs-18 text-danger">120.000đ</span>
+                                        <span>x <span class="fs-18 text-danger">5</span></span>
+                                        <b class="fs-18 text-danger d-block">Số tiền: 120.000đ</b>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="bot px-4 pb-5">
+                                <p class="text-right fs-20 p-4">
+                                    TỔNG TIỀN HÀNG(5 sản phẩm):  <b class="price fs-30">1.068.000 đ</b>
+                                </p>
+                                <div class="btn-gr flex-md-row flex-column d-flex justify-content-end align-items-center">
+                                    <a href="javascript:;" class="btn-light">KHIẾU NẠI ĐƠN HÀNG</a> 
+                                    <a href="javascript:" class="btn-green">ĐÃ NHẬN HÀNG</a>
+                                    <a href="javascript:;" class="btn-light">CHI TIẾT ĐƠN HÀNG</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+        <myfooter></myfooter>
+    </div>
+
+    <script src="js/vue.js"></script>
+    <script src="js/httpVueLoader.js"></script>
+    <script src="js/taikhoan.js"></script>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery.mmenu.all.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

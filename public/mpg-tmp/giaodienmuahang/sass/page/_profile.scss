@@ -1,0 +1,101 @@
+.sidebar-profile {
+    .user {
+        margin-bottom: 30px;
+        .image {
+            @include col-w(64px);
+            margin-right: 15px;
+            img {
+                width: 64px;
+                height: 64px;
+                border-radius: 100%;
+            }
+        }
+        .name {
+            font-size: 18px;
+            color: rgba(37, 37, 37, 255);
+        }
+    }
+    .link-profile {
+        a {
+            display: block;
+        }
+        .link-1 {
+            font-size: 19px;
+            color: rgba(0, 0, 0, 255);
+            margin-bottom: 8px;
+            margin-top: 8px;
+            &:hover{
+                color: $theme;
+            }
+            i {
+                width: 21px;
+                height: 21px;
+                background-color: $theme1;
+                border-radius: 21px;
+                text-align: center;
+                line-height: 20px;
+                color: #ffffff;
+                font-size: 12px;
+                margin-top: 3px;
+                margin-right: 10px;
+            }
+        }
+        .link-2 {
+            font-size: 18px;
+            color: rgba(112, 112, 112, 255);
+            padding-left: 33px;
+            margin-bottom: 4px;
+            &:hover{
+                color: rgba(188, 0, 11, 255);
+            }
+        }
+    }
+}
+.profile-box{
+    .upload{
+        background-color: #e1e1e1;
+        border-radius: 8px;
+        border: 1px solid #959595;
+        padding: 30px 0;
+        width: 300px;
+        text-align: center;
+        margin-right: 20px;
+        i{
+            font-size: 35px;
+            color: #707070;
+            margin-right: 20px;
+        }
+    }
+    .box-upload{
+        .note{
+            max-width: 220px;
+        }
+    }
+    .btn-reg, .btn-cancel{
+        box-shadow: 0 0 0 0;
+    }
+    .btn-cancel{
+        background-color: transparent;
+        color: rgba(0, 124, 57, 255);
+        margin-left: 20px;
+    }
+
+}
+@media(max-width: 767px){
+    .profile-box .upload{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .profile-box{
+        .btn-reg, .btn-cancel{
+            box-shadow: 0 0 0 0;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .btn-cancel{
+            background-color: transparent;
+            color: rgba(0, 124, 57, 255);
+            margin-left: 00px;
+        }
+    }
+}
